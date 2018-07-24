@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/variables-mixins.css",
+	"sources": [
+		"../sass/variables-mixins.scss"
+	],
+	"sourcesContent": [
+		"//cores\n\n$bege-claro: #edece4;\n$bege-medio: #cbc6b9;\n$cinza: #edece4;"
+	],
+	"mappings": "",
+	"names": []
+}
