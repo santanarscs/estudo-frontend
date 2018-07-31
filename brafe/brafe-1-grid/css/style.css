@@ -14,16 +14,44 @@ body {
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+	display: block;
+}
+
 /* Menu */
 
 .menu {
 	background: #252525;
+	padding: 15px 0;
+}
+.menu-nav ul {
+	float: right
+}
+
+.menu-nav ul li {
+	display: inline-block;
+	
 }
 
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
+	display: block;
+	margin-left: 10px;
+	padding: 10px
+}
+
+@media (max-width: 739px){
+	.menu-nav ul {
+		float:none
+	}
+	.menu-nav ul li a {
+		margin-left: 0px;
+		padding-left: 0;
+		padding-right: 8px;
+	}
 }
 
 /* Intro */
@@ -32,6 +60,8 @@ body {
 	background: url('../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -45,11 +75,17 @@ body {
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 10px auto;
 }
 
 .intro p {
 	font-style: italic;
 	font-size: 1.125em;
+}
+@media (max-width: 739px){
+	.intro{
+		padding: 60px 0;
+	}
 }
 
 /* Sobre */
