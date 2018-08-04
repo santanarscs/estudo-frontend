@@ -24,11 +24,31 @@ img {
 .menu {
 	background: #252525;
 }
-
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
+}
+.menu-nav ul {
+	float: right;
+	list-style: none
+}
+.menu-nav ul li {
+	display:inline-block
+}
+.menu-nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin-left: 10px;
+}
+@media (max-width:768px){
+	.menu-nav ul {
+		float: none;
+	}
+	.menu-nav ul li a {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
 }
 
 /* Intro */
@@ -37,11 +57,14 @@ img {
 	background: url('../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
 	text-transform: uppercase;
 	font-size: 3em;
+	font-weight: bold;
 }
 
 .intro h1::after {
@@ -50,17 +73,30 @@ img {
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 20px auto;
 }
 
 .intro p {
 	font-style: italic;
 	font-size: 1.125em;
 }
+@media (max-width:768px){
+	.intro {
+		padding: 60px 0;
+	}
+}
 
 /* Sobre */
+.sobre {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 
 .sobre h2 {
 	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: bold;
 }
 
 .sobre-item h3 {
@@ -72,12 +108,18 @@ img {
 	font-weight: normal;
 	text-align: center;
 	position: relative;
+	width: 220px;
+	padding: 5px 0 10px 0;
+	top: -25px
 }
 
 .sobre > p {
 	font-size: 1.125em;
 	line-height: 1.4em;
 	font-style: italic;
+	max-width: 460px;
+	text-align: center;
+	margin: 20px auto;
 }
 
 /* Produtos */
@@ -86,10 +128,17 @@ img {
 	background: #e7e4d8;
 	border-top: 3px solid #d6d3c8;
 	border-bottom: 3px solid #d6d3c8;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
-
+.produtos-item {
+	margin-bottom: 40px
+}
 .produtos-item h2 {
 	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 .produtos-item h2::before {
@@ -101,6 +150,7 @@ img {
 	border-radius: 50%;
 	border: 5px solid #e7e4d8;
 	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto
 }
 
 h2.produtos-paulista::before {
@@ -128,17 +178,38 @@ h2.produtos-mineiro::before {
 	font-size: 1.125em;
 	font-weight: bold;
 	text-transform: uppercase;
+	width: 180px;
+	display: block;
+	margin: 20px auto 0 auto;
+	padding: 15px 0
+}
+.produtos-btn:hover {
+	text-decoration: none;
+	color: #c17139;
+	border-color: #c17139;
 }
 
 /* Locais */
 
+.locais {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
 .locais-item h2 {
 	font-size: 2.25em;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 .locais-item p {
 	font-size: 1.125em;
 	line-height: 1.4em;
+	max-width: 230px;
+	margin-bottom: 20px;
+}
+.locais-item {
+	margin-bottom: 40px;
 }
 
 .locais-item a {
@@ -147,21 +218,31 @@ h2.produtos-mineiro::before {
 	text-decoration: none;
 	border: 3px solid;
 	color: #252525;
+	padding: 10px 20px;
 }
 
 /* Assine */
 
 .assine {
 	background: #e7e4d8;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .assine-info h2 {
 	font-size: 2.25em;
+	font-weight: bold;
 }
 
 .assine-info p {
 	font-size: 1.5em;
 	font-style: italic;
+}
+.assine form{
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start
 }
 
 .assine form label {
@@ -174,6 +255,8 @@ h2.produtos-mineiro::before {
 	font-size: 1.5em;
 	font-style: italic;
 	font-family: Georgia, serif;
+	align-self: flex-start;
+	padding: 10px;
 }
 
 .assine button {
@@ -184,15 +267,26 @@ h2.produtos-mineiro::before {
 	font-size: 1.5em;
 	color: #fff;
 	cursor: pointer;
+	align-self: flex-start;
+	padding: 13px;
 }
 
 /*Footer*/
 
 .footer {
 	background: #d6d3c8;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.float img {
+	float: right;
 }
 
 .footer p {
 	font-size: 1.125em;
 	line-height: 1.4em;
+}
+@media (max-width:768px) {
+	float: none;
+	margin-top: 20px;
 }
