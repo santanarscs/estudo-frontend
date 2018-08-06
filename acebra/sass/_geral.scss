@@ -1,0 +1,13 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+p{
+    @include tipo-1(18)
+}
+.header-cotacoes{
+    background: $primary;
+    text-align: center;
+    color: $branco;
+    padding: 5px 0;
+}

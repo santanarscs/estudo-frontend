@@ -1,98 +1,471 @@
-/* Reset */
-
-/* body, h1, h2, h3, p, ul {
-	padding: 0px;
-	margin: 0px;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
+/* HTML5 display-role reset for older browsers */
+/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
 body {
-	font-family: Georgia, serif;
-	color: #252525;
+  line-height: 1;
 }
 
-* {
-	box-sizing: border-box;
-} */
+/* line 34, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
 
+/* line 37, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 9, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-1 {
+  width: calc(8.33333% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-2 {
+  width: calc(16.66667% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-3 {
+  width: calc(25% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-4 {
+  width: calc(33.33333% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-5 {
+  width: calc(41.66667% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-6 {
+  width: calc(50% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-7 {
+  width: calc(58.33333% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-8 {
+  width: calc(66.66667% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-9 {
+  width: calc(75% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-10 {
+  width: calc(83.33333% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-11 {
+  width: calc(91.66667% - 20px);
+}
+
+/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.grid-12 {
+  width: calc(100% - 20px);
+}
+
+/* line 68, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+[class^="grid-"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 68, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  [class^="grid-"] {
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-1 {
+  margin-left: calc(8.33333% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-2 {
+  margin-left: calc(16.66667% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-3 {
+  margin-left: calc(25% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-4 {
+  margin-left: calc(33.33333% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-5 {
+  margin-left: calc(41.66667% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-6 {
+  margin-left: calc(50% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-7 {
+  margin-left: calc(58.33333% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-8 {
+  margin-left: calc(66.66667% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-9 {
+  margin-left: calc(75% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-10 {
+  margin-left: calc(83.33333% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-11 {
+  margin-left: calc(91.66667% + 10px);
+}
+
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.offset-12 {
+  margin-left: calc(100% + 10px);
+}
+
+@media screen and (max-width: 759px) {
+  /* line 82, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7, .offset-8, .offset-9, .offset-10, .offset-11, .offset-12 {
+    margin-left: 0px;
+  }
+}
+
+/* line 112, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+  /* line 112, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  .container {
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  /* line 112, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  .container {
+    max-width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* line 90, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.container::after, .container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 127, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.row {
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 127, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* line 90, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+.row::after, .row::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
 img {
-	display: block;
-	max-width: 100%
+  display: block;
+  max-width: 100%;
 }
 
-/* cotacoes */
-.cotacoes {
-    background: #006d34;
-    color: #fff;
+/* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
+p {
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
 }
 
-/* menu */
-
-.menu {
-    padding: 15px 0;
-
-}
-.menu-logo {
-    margin: 0 10px;
-}
-.menu-logo img {
-    width: 150px;
-    height: 100px;
-}
-.menu-nav {
-    flex: 1;
-    margin: 0 10px;
-    align-self: center;
-}
-.menu-nav ul {
-    float: right;
-    display: flex;
-    list-style: none;
-}
-.menu-nav ul li a {
-    padding: 20px 11px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #006d34;
-    display: block;
-    font-size: 14px;
-    font-weight: 300
+/* line 8, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
+.header-cotacoes {
+  background: #006d34;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
 }
 
-/* navegação */
-
-.navigation-item {
-
-    margin-bottom: 20px;
-}
-.navigation ul li a {
-    color: #006d34;
-}
-.navigation ul{
-    border: 3px solid #006d34;
-    margin-bottom: 40px;
-}
-.nav-title{
-    background-color: #006d34;
-    text-align: center;
-    text-transform: uppercase;
-}
-.nav-title a {
-    color: #fff !important
+/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header {
+  padding: 20px 0;
 }
 
-/* introdução */
-.intro p {
-    /* background: #252525;
-    color: #fff; */
-    line-height: 1em;
-    background: #252525;
-    opacity: 0.65;
-	color: #fff;
-	font-style: italic;
-	font-weight: normal;
-	text-align: center;
-	position: relative;
-	/* width: 220px; */
-	padding: 5px 0 10px 0;
-	top: -50px;
+/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header img {
+  width: 150px;
+  height: 100px;
 }
+
+/* line 10, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header ul {
+  float: right;
+}
+
+/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header li {
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  display: inline-block;
+}
+
+/* line 18, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header ul li a {
+  padding: 20px 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #006d34;
+  display: block;
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  font-weight: 300;
+}
+
+/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header ul li a:hover {
+  padding: 20px 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #c9a220;
+  display: block;
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  font-weight: 300;
+}
+
+/* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+.navegacao h2 {
+  border-top: 3px solid #006d34;
+  padding: 12px 12px 5px 10px;
+  height: 32px;
+  background: #edece4;
+  text-transform: uppercase;
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  color: #006d34;
+  position: relative;
+}
+
+/* line 12, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+.navegacao ul {
+  padding-bottom: 20px;
+}
+
+/* line 15, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+.navegacao li {
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #edece4;
+}
+
+/* line 22, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+.navegacao a {
+  text-decoration: none;
+  color: #006d34;
+}
+
+/* line 26, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+.navegacao a:hover {
+  text-decoration: none;
+  color: #c9a220;
+}
+
+/* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+.main h1 {
+  top: -45px;
+  background: #2a2426;
+  color: #fff;
+  padding: 5px 0 10px 0;
+  position: relative;
+  text-align: center;
+}
+
+/* line 12, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+.noticias h2 {
+  border-top: 3px solid #006d34;
+  padding: 12px 12px 5px 10px;
+  height: 32px;
+  background: #edece4;
+  text-transform: uppercase;
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  color: #006d34;
+  position: relative;
+}
+
+/* line 22, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+.noticias li {
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #edece4;
+}
+
+/* line 29, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+.noticias a {
+  text-decoration: none;
+  color: #006d34;
+}
+
+/* line 33, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+.noticias a:hover {
+  text-decoration: none;
+  color: #c9a220;
+}
+
+/* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda h2, .item-meteorologia h2, .item-cotacao h2 {
+  border-top: 3px solid #006d34;
+  padding: 12px 12px 5px 10px;
+  height: 32px;
+  background: #edece4;
+  text-transform: uppercase;
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  color: #006d34;
+  position: relative;
+}
+
+/* line 12, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda li, .item-meteorologia li, .item-cotacao li {
+  font-family: "PT Mono", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #edece4;
+}
+
+/* line 19, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda a, .item-meteorologia a, .item-cotacao a {
+  text-decoration: none;
+  color: #006d34;
+}
+
+/* line 23, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda a:hover, .item-meteorologia a:hover, .item-cotacao a:hover {
+  text-decoration: none;
+  color: #c9a220;
+}
+
+/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.final {
+  margin-top: 60px;
+  background: #006d34;
+  color: #fff;
+}
+
+/* line 9, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.endereco {
+  text-align: right;
+}
+
+/*# sourceMappingURL=../css/style.map */

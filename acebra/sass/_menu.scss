@@ -1,0 +1,36 @@
+.header {
+    padding: 20px 0;
+
+}
+.header  {
+    img{
+        width: 150px;
+        height: 100px;
+    }
+    ul {
+        float: right;
+    }
+    li {
+        @include tipo-1(18);
+        line-height: em(35, 18);
+        display: inline-block
+    }
+    ul li a {
+        padding: 20px 11px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $primary;
+        display: block;
+        @include tipo-1(18);
+        font-weight: 300
+    }
+    ul li a:hover {
+        padding: 20px 11px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $secondary;
+        display: block;
+        @include tipo-1(18);
+        font-weight: 300
+    }
+}
