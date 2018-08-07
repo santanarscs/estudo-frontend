@@ -17,6 +17,10 @@ $(function () {
         before: function(){},   // Function: Before callback
         after: function(){}     // Function: After callback
     });
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+        weekends: false
+    })
 });
 
 function openPrice(evt, cityName) {

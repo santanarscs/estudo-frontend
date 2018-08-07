@@ -1,7 +1,7 @@
 .item-agenda, .item-meteorologia, .item-cotacao {
     border-bottom: 2px solid $primary;
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 350px;
+    max-height: 350px;
     h2 {
         padding: 10px 0;
         @include tipo-1(18);
@@ -38,5 +38,15 @@
      td {
         padding: 5px 5px;
         border-bottom: 1px solid $bege-claro
+    }
+}
+.item-agenda {
+    #calendar {
+        padding: 5px 0;
+    }
+    button {
+        background: $primary;
+        color: $branco;
+        border-radius: 0 !important;
     }
 }

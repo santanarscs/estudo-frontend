@@ -497,8 +497,8 @@ p {
 /* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda, .item-meteorologia, .item-cotacao {
   border-bottom: 2px solid #006d34;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 350px;
+  max-height: 350px;
 }
 
 /* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
@@ -555,6 +555,18 @@ p {
 .tabela-cotacao td {
   padding: 5px 5px;
   border-bottom: 1px solid #edece4;
+}
+
+/* line 44, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda #calendar {
+  padding: 5px 0;
+}
+
+/* line 47, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda button {
+  background: #006d34;
+  color: #fff;
+  border-radius: 0 !important;
 }
 
 /* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
