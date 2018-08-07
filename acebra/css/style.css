@@ -449,18 +449,18 @@ p {
   background-color: #F4F4F4;
 }
 
-/* line 54, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 55, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar {
   width: 6px;
   background: #F4F4F4;
 }
 
-/* line 58, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 60, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-thumb {
-  background: #dad7d7;
+  background: #006d34;
 }
 
-/* line 61, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 64, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -470,7 +470,7 @@ p {
   margin: 0;
 }
 
-/* line 70, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 73, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -480,14 +480,14 @@ p {
   top: 0;
 }
 
-/* line 79, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 82, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 85, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 88, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -498,26 +498,28 @@ p {
 
 /* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda h2, .item-meteorologia h2, .item-cotacao h2 {
-  border-top: 3px solid #006d34;
-  padding: 12px 12px 5px 10px;
-  height: 32px;
-  background: #edece4;
-  text-transform: uppercase;
+  padding: 10px 0;
   font-family: "PT Mono", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   color: #006d34;
-  position: relative;
+  text-align: center;
 }
 
-/* line 12, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 8, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda ul, .item-meteorologia ul, .item-cotacao ul {
+  border-top: 2px solid #006d34;
+  border-bottom: 2px solid #006d34;
+  padding-bottom: 20px;
+}
+
+/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda li, .item-meteorologia li, .item-cotacao li {
   font-family: "PT Mono", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   line-height: "1.94444em";
   padding: 10px 10px 10px 20px;
-  border-bottom: 1px solid #edece4;
 }
 
 /* line 19, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
