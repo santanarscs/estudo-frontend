@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ACEBRA - Associação das Empresas Cerealistas do Brasil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 
 </head>
@@ -49,41 +50,43 @@
     <div class="container">
         <div class="row">
             <div class="grid-3">
-                <nav class="navegacao">
-                    <h2>Associações</h2>
-                    <ul>
-                        <li>
-                            <a href="#">ACERGS</a>
-                        </li>
-                        <li>
-                            <a href="#">ACESC</a>
-                        </li>
-                        <li>
-                            <a href="#">ACEPAR</a>
-                        </li>
-                        <li>
-                            <a href="#">ACEMAT</a>
-                        </li>
-                    </ul>
-                    <h2>Importante</h2>
-                    <ul>
-                        <li>
-                            <a href="#">Câmaras Ténicas</a>
-                        </li>
-                        <li>
-                            <a href="#">Câmaras Setoriais</a>
-                        </li>
-                        <li>
-                            <a href="#">Plano Agrícola e Pecuário</a>
-                        </li>
-                    </ul>
-                    <h2>Redes Sociais</h2>
-                    <ul>
-                        <li>
-                            <a href="#"> Fotos</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="grid-9">
+                    <nav class="navegacao">
+                        <h2>Associações</h2>
+                        <ul>
+                            <li>
+                                <a href="#">ACERGS</a>
+                            </li>
+                            <li>
+                                <a href="#">ACESC</a>
+                            </li>
+                            <li>
+                                <a href="#">ACEPAR</a>
+                            </li>
+                            <li>
+                                <a href="#">ACEMAT</a>
+                            </li>
+                        </ul>
+                        <h2>Importante</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Câmaras Ténicas</a>
+                            </li>
+                            <li>
+                                <a href="#">Câmaras Setoriais</a>
+                            </li>
+                            <li>
+                                <a href="#">Plano Agrícola e Pecuário</a>
+                            </li>
+                        </ul>
+                        <h2>Redes Sociais</h2>
+                        <ul>
+                            <li>
+                                <a href="#"> Fotos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <div class="grid-9">
                 <div class="row">
@@ -103,9 +106,6 @@
                                     <h1>Ultimo Slide</h1>
                                 </li>
                             </ul>
-
-
-
                         </section>
                     </div>
                     <div class="grid-4">
@@ -186,19 +186,59 @@
                         </section>
                     </div>
                     <div class="grid-4">
-                        <section class="item-cotacao ">
-                            <h2>Cotações em Tempo Real</h2>
-                            <ul>
-                                <li>
-                                    <a href="#">Noticia 1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Noticia 2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Noticia 3</a>
-                                </li>
-                            </ul>
+                        <section class="item-cotacao">
+                            <h2>Cotações</h2>
+                            <div class="tab">
+                                <button class="tablinks" onclick="openPrice(event, 'Commodities')" id="defaultOpen">Commodities</button>
+                                <button class="tablinks" onclick="openPrice(event, 'Indices')">Índices</button>
+                            </div>
+                            
+                            <!-- Tab content -->
+                            <div id="Commodities" class="tabcontent">
+                                <table class="tabela-cotacao">
+                                    <thead>
+                                        <tr>
+                                            <th>Contrato</th>
+                                            <th>Preço</th>
+                                            <th>VAR</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Soja</td>
+                                            <td>886,75</td>
+                                            <td>9,50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Milho</td>
+                                            <td>386,75</td>
+                                            <td>5,50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trigo</td>
+                                            <td>726,75</td>
+                                            <td>9,50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Café</td>
+                                            <td>82,75</td>
+                                            <td>9,50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Açúcar</td>
+                                            <td>66,75</td>
+                                            <td>9,50</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div id="Indices" class="tabcontent">
+                                <h3>Paris</h3>
+                                <p>Paris is the capital of France.</p>
+                            </div>
+                            
+                            
                         </section>
                     </div>
                 </div>
@@ -207,26 +247,35 @@
     </div>
     <section class="final">
         <div class="container">
-            <div class="grid-3" class="sociais">
-                <a href="#">
-                    <img src="img/facebook.png" alt="facebook-acebra">
-                </a>
-                <a href="#">
-                    <img src="img/linkedin.png" alt="linkedin-acebra">
-                </a>
-                <a href="#">
-                    <img src="img/instagram.png" alt="instagram-acebra">
-                </a>
+            <div class="grid-3 sociais">
+                <ul>
+                    <li><a href="#" target="_blank"><img src="img/facebook.png" alt="Facebook ACEBRA "></a></li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="img/instagram.png" alt="Instagram ACEBRA ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="img/linkedin.png" alt="Linkedin ACEBRA ">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="grid-9">
-                <p class="endereco">Associações das Empresas Cerealistas do Brasil - ACEBRA
-                    <br> SHN- Quadra 01, Bloco "A"
-                    <br> Ed Le Quartier, Sala 636, Brasília - DF CEP 70701-010
-                    <br> TEL/FAX (61) 3327-4972</p>
+            <div class="grid-9 endereco">
+                <p>Associações das Empresas Cerealistas do Brasil - ACEBRA</p>
+                <p>
+                SHN- Quadra 01, Bloco A<br>
+                Ed Le Quartier, Sala 636, Brasília - DF CEP 70701-010<br> 
+                TEL/FAX (61) 3327-4972<br></p>
             </div>
         </div>
     </section>
-
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright 2018 ACEBRA - Proibida a cópia total ou parcial do conteúdo deste site.</p>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="js/plugins.js"></script>

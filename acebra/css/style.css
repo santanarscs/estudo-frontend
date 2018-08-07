@@ -269,7 +269,7 @@ img {
 
 /* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
 p {
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
 }
@@ -309,7 +309,7 @@ p {
 
 /* line 16, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header li {
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   line-height: "1.94444em";
@@ -320,9 +320,9 @@ p {
 .header ul li a {
   padding: 20px 11px;
   text-decoration: none;
-  color: #006d34;
+  color: #011f17;
   display: block;
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   font-weight: 300;
@@ -334,7 +334,7 @@ p {
   text-decoration: none;
   color: #c9a220;
   display: block;
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   font-weight: 300;
@@ -343,36 +343,34 @@ p {
 /* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao h2 {
   padding: 10px 0;
-  font-family: "PT Mono", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  color: #006d34;
+  font-family: "Maven Pro", monospace;
+  font-size: "1.5em";
+  line-height: "1.25em";
+  color: #011f17;
   text-align: center;
 }
 
-/* line 8, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 9, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao ul {
   border-top: 2px solid #006d34;
   border-left: 2px solid #006d34;
   padding-bottom: 20px;
 }
 
-/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 14, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao li {
-  font-family: "PT Mono", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-family: "Maven Pro", monospace;
+  line-height: "2.5em";
   padding: 10px 10px 10px 20px;
 }
 
-/* line 19, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 20, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao a {
   text-decoration: none;
-  color: #006d34;
+  color: #011f17;
 }
 
-/* line 23, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 24, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao a:hover {
   text-decoration: none;
   color: #c9a220;
@@ -406,7 +404,7 @@ p {
 /* line 22, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .noticias h2 {
   padding: 10px 0;
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   color: #006d34;
@@ -418,14 +416,14 @@ p {
   border-top: 2px solid #006d34;
   border-left: 2px solid #006d34;
   padding-bottom: 20px;
-  min-height: 374px;
-  max-height: 374px;
+  min-height: 338px;
+  max-height: 338px;
   overflow-y: scroll;
 }
 
 /* line 36, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .noticias li {
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   line-height: "1.94444em";
@@ -496,55 +494,186 @@ p {
   border: 0;
 }
 
-/* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.item-agenda, .item-meteorologia, .item-cotacao {
+  border-bottom: 2px solid #006d34;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+/* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda h2, .item-meteorologia h2, .item-cotacao h2 {
   padding: 10px 0;
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   color: #006d34;
   text-align: center;
+  border-bottom: 2px solid #006d34;
 }
 
-/* line 8, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 12, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda ul, .item-meteorologia ul, .item-cotacao ul {
-  border-top: 2px solid #006d34;
-  border-bottom: 2px solid #006d34;
   padding-bottom: 20px;
 }
 
-/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 15, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda li, .item-meteorologia li, .item-cotacao li {
-  font-family: "PT Mono", monospace;
+  font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   line-height: "1.94444em";
   padding: 10px 10px 10px 20px;
 }
 
-/* line 19, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 21, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda a, .item-meteorologia a, .item-cotacao a {
   text-decoration: none;
   color: #006d34;
 }
 
-/* line 23, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 25, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda a:hover, .item-meteorologia a:hover, .item-cotacao a:hover {
   text-decoration: none;
   color: #c9a220;
 }
 
+/* line 30, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.tabela-cotacao {
+  width: 100%;
+  border-collapse: inherit;
+  border-spacing: 0;
+}
+
+/* line 34, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.tabela-cotacao th {
+  padding: 5px 5px;
+  border-bottom: 2px solid #edece4;
+}
+
+/* line 38, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+.tabela-cotacao td {
+  padding: 5px 5px;
+  border-bottom: 1px solid #edece4;
+}
+
 /* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
 .final {
   margin-top: 60px;
-  padding: 40px 0;
+  padding: 20px 0;
   background: #006d34;
   color: #fff;
 }
 
-/* line 10, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.final h2 {
+  font-family: "Maven Pro", monospace;
+  font-size: "1.5em";
+  line-height: "1.25em";
+  line-height: "1.94444em";
+  padding: 20px 0;
+}
+
+/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.sociais li {
+  font-family: "Maven Pro", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  display: inline-block;
+}
+
+/* line 18, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.sociais ul li a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #006d34;
+  display: block;
+  font-family: "Maven Pro", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  font-weight: 300;
+}
+
+/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
 .endereco {
   text-align: right;
+}
+
+/* line 29, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.endereco p {
+  padding: 5px 0;
+}
+
+/* line 33, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.footer {
+  background: #011f17;
+  padding: 5px;
+}
+
+/* line 36, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+.footer p {
+  font-family: "Maven Pro", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  color: #fff;
+}
+
+/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+.tab {
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+.tab button {
+  font-family: "Maven Pro", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* line 18, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+.tab button:hover {
+  background: #c9a220;
+}
+
+/* line 22, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+.tab button.active {
+  background: #006d34;
+  color: #fff;
+}
+
+/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+.tabcontent {
+  font-family: "Maven Pro", monospace;
+  font-size: "1.125em";
+  line-height: "1.66667em";
+  line-height: "1.94444em";
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+/* line 34, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=../css/style.map */

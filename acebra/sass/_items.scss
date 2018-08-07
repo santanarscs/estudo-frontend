@@ -1,13 +1,15 @@
 .item-agenda, .item-meteorologia, .item-cotacao {
+    border-bottom: 2px solid $primary;
+    min-height: 300px;
+    max-height: 300px;
     h2 {
         padding: 10px 0;
         @include tipo-1(18);
         color: $primary;
         text-align: center;
+        border-bottom: 2px solid $primary;
     }
     ul {
-        border-top: 2px solid $primary;
-        border-bottom: 2px solid $primary;
         padding-bottom: 20px;
     }
     li {
@@ -23,5 +25,18 @@
     a:hover {
         text-decoration: none;
         color: $secondary
+    }
+}
+.tabela-cotacao {
+        width: 100%;
+        border-collapse: inherit;
+        border-spacing: 0;
+     th {
+        padding: 5px 5px;
+        border-bottom: 2px solid $bege-claro
+    }
+     td {
+        padding: 5px 5px;
+        border-bottom: 1px solid $bege-claro
     }
 }

@@ -1,8 +1,9 @@
 .navegacao {
     h2 {
         padding: 10px 0;
-        @include tipo-1(18);
-        color: $primary;
+        @include tipo-1(24);
+        // line-height: em(35, 24);
+        color: $preto;
         text-align: center;
     }
     ul {
@@ -11,14 +12,14 @@
         padding-bottom: 20px;
     }
     li {
-        @include tipo-1(18);
-        line-height: em(35, 18);
+        @include tipo-1(14);
+        line-height: em(35, 14);
         padding: 10px 10px 10px 20px;
     }
 
     a {
         text-decoration: none;
-        color: $primary
+        color: $preto
     }
     a:hover {
         text-decoration: none;
