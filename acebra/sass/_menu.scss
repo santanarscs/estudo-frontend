@@ -1,7 +1,10 @@
 
 .header  {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    padding: 20px 0 25px 0;
+    @include box-shadow(0px 3px 0 0px $secondary,
+                        0 3px 6px rgba(0,0,0,0.16), 
+                        0 3px 6px rgba(0,0,0,0.23)
+    ); 
+    padding: 10px 0 10px 0;
     margin-bottom: 40px;
     img{
         display: block;
@@ -18,7 +21,6 @@
     ul li a {
         padding: 20px 11px;
         text-decoration: none;
-        text-transform: uppercase;
         color: $primary;
         display: block;
         @include tipo-1(18);
@@ -27,11 +29,9 @@
     ul li a:hover {
         padding: 20px 11px;
         text-decoration: none;
-        text-transform: uppercase;
         color: $secondary;
         display: block;
         @include tipo-1(18);
         font-weight: 300;
-        border-bottom: 3px solid $secondary;
     }
 }
