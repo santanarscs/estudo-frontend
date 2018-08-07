@@ -1,7 +1,7 @@
 .item-agenda, .item-meteorologia, .item-cotacao {
     border-bottom: 2px solid $primary;
-    min-height: 350px;
-    max-height: 350px;
+    min-height: 380px;
+    max-height: 380px;
     h2 {
         padding: 10px 0;
         @include tipo-1(18);

@@ -497,8 +497,8 @@ p {
 /* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
 .item-agenda, .item-meteorologia, .item-cotacao {
   border-bottom: 2px solid #006d34;
-  min-height: 350px;
-  max-height: 350px;
+  min-height: 380px;
+  max-height: 380px;
 }
 
 /* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
