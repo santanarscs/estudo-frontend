@@ -1,5 +1,7 @@
+.intro {
+    margin-bottom: 20px;
+}
 .main {
-    padding-bottom: 60px; 
     ul {
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
@@ -18,49 +20,54 @@
     }
 }
 .noticias{
-    
     h2 {
         padding: 10px 0;
         @include tipo-1(18);
         color: $primary;
         text-align: center;
     }
+    h6{
+        color: $primary;
+    }
     ul {
         border-top: 2px solid $primary;
         border-left: 2px solid $primary;
         padding-bottom: 20px;
-        min-height: 338px;
-        max-height: 338px;
+        min-height: 308px;
+        max-height: 308px;
         overflow-y: scroll;
     }
     li {
         @include tipo-1(18);
         line-height: em(35, 18);
-        padding: 10px 10px 10px 20px;
+        padding: 5px 5px;
+        margin: 10px 10px 10px 10px;
+        background: $cinza-claro
     }
 
     a {
-        padding: 20px 11px;
         text-decoration: none;
-        color: $primary
+        color: $preto
     }
     a:hover {
         text-decoration: none;
         color: $secondary;
         transition: all .3s ease;
     }
+    .leia-mais {
+        color: $primary;
+        float: right;
+        padding: 10px 0;
+    }
 }
 ::-webkit-scrollbar-track {
     background-color: #F4F4F4;
-    // background-color: $primary;
 }
 ::-webkit-scrollbar {
     width: 6px;
     background: #F4F4F4;
-    // background: $primary;
 }
 ::-webkit-scrollbar-thumb {
-    // background: #dad7d7;
     background: $primary;
 }
 .rslides {

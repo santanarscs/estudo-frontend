@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 6, /home/santana/frontend/acebra/sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,106 +25,106 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 27, /home/santana/frontend/acebra/sass/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 31, /home/santana/frontend/acebra/sass/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 34, /home/santana/frontend/acebra/sass/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 37, /home/santana/frontend/acebra/sass/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 40, /home/santana/frontend/acebra/sass/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, /home/santanarscs/estudo-frontend/acebra/sass/_reset.scss */
+/* line 45, /home/santana/frontend/acebra/sass/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 9, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 9, /home/santana/frontend/acebra/sass/_grid.scss */
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-1 {
   width: calc(8.33333% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-2 {
   width: calc(16.66667% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-3 {
   width: calc(25% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-4 {
   width: calc(33.33333% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-5 {
   width: calc(41.66667% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-6 {
   width: calc(50% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-7 {
   width: calc(58.33333% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-8 {
   width: calc(66.66667% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-9 {
   width: calc(75% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-10 {
   width: calc(83.33333% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-11 {
   width: calc(91.66667% - 20px);
 }
 
-/* line 48, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_grid.scss */
 .grid-12 {
   width: calc(100% - 20px);
 }
 
-/* line 68, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 68, /home/santana/frontend/acebra/sass/_grid.scss */
 [class^="grid-"] {
   float: left;
   min-height: 1px;
@@ -133,7 +133,7 @@ table {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 68, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  /* line 68, /home/santana/frontend/acebra/sass/_grid.scss */
   [class^="grid-"] {
     width: 100%;
     float: none;
@@ -142,74 +142,74 @@ table {
   }
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-1 {
   margin-left: calc(8.33333% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-2 {
   margin-left: calc(16.66667% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-3 {
   margin-left: calc(25% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-4 {
   margin-left: calc(33.33333% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-5 {
   margin-left: calc(41.66667% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-6 {
   margin-left: calc(50% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-7 {
   margin-left: calc(58.33333% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-8 {
   margin-left: calc(66.66667% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-9 {
   margin-left: calc(75% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-10 {
   margin-left: calc(83.33333% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-11 {
   margin-left: calc(91.66667% + 10px);
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 75, /home/santana/frontend/acebra/sass/_grid.scss */
 .offset-12 {
   margin-left: calc(100% + 10px);
 }
 
 @media screen and (max-width: 759px) {
-  /* line 82, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  /* line 82, /home/santana/frontend/acebra/sass/_grid.scss */
   .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7, .offset-8, .offset-9, .offset-10, .offset-11, .offset-12 {
     margin-left: 0px;
   }
 }
 
-/* line 112, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 112, /home/santana/frontend/acebra/sass/_grid.scss */
 .container {
   max-width: 1200px;
   margin: 0px auto;
@@ -217,14 +217,14 @@ table {
 }
 
 @media screen and (min-width: 760px) and (max-width: 1199px) {
-  /* line 112, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  /* line 112, /home/santana/frontend/acebra/sass/_grid.scss */
   .container {
     max-width: 760px;
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 112, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  /* line 112, /home/santana/frontend/acebra/sass/_grid.scss */
   .container {
     max-width: 480px;
     padding-left: 10px;
@@ -232,14 +232,14 @@ table {
   }
 }
 
-/* line 90, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 90, /home/santana/frontend/acebra/sass/_grid.scss */
 .container::after, .container::before {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 127, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 127, /home/santana/frontend/acebra/sass/_grid.scss */
 .row {
   position: relative;
   margin-left: -10px;
@@ -247,34 +247,34 @@ table {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 127, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+  /* line 127, /home/santana/frontend/acebra/sass/_grid.scss */
   .row {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 
-/* line 90, /home/santanarscs/estudo-frontend/acebra/sass/_grid.scss */
+/* line 90, /home/santana/frontend/acebra/sass/_grid.scss */
 .row::after, .row::before {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
+/* line 1, /home/santana/frontend/acebra/sass/_geral.scss */
 img {
   display: block;
   max-width: 100%;
 }
 
-/* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
+/* line 5, /home/santana/frontend/acebra/sass/_geral.scss */
 p {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
 }
 
-/* line 8, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
+/* line 8, /home/santana/frontend/acebra/sass/_geral.scss */
 .header-cotacoes {
   background: #006d34;
   text-align: center;
@@ -282,12 +282,12 @@ p {
   padding: 5px 0;
 }
 
-/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_geral.scss */
+/* line 13, /home/santana/frontend/acebra/sass/_geral.scss */
 .header-cotacoes p {
   text-align: right;
 }
 
-/* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 2, /home/santana/frontend/acebra/sass/_menu.scss */
 .header {
   -webkit-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -301,23 +301,23 @@ p {
   z-index: 3;
 }
 
-/* line 14, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 14, /home/santana/frontend/acebra/sass/_menu.scss */
 .header .row {
   background: #fff;
 }
 
-/* line 17, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 17, /home/santana/frontend/acebra/sass/_menu.scss */
 .header img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 21, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 21, /home/santana/frontend/acebra/sass/_menu.scss */
 .header ul {
   float: right;
 }
 
-/* line 25, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 25, /home/santana/frontend/acebra/sass/_menu.scss */
 .header li {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -326,7 +326,7 @@ p {
   display: inline-block;
 }
 
-/* line 30, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 30, /home/santana/frontend/acebra/sass/_menu.scss */
 .header ul li a {
   padding: 20px 11px;
   text-decoration: none;
@@ -339,7 +339,7 @@ p {
   transition: all .3s ease;
 }
 
-/* line 39, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 39, /home/santana/frontend/acebra/sass/_menu.scss */
 .header ul li a:hover {
   padding: 20px 11px;
   text-decoration: none;
@@ -351,14 +351,14 @@ p {
   font-weight: 300;
 }
 
-/* line 49, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 49, /home/santana/frontend/acebra/sass/_menu.scss */
 .small {
   padding: 5px;
   font-size: 80%;
   background: #fff;
 }
 
-/* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 2, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao h2 {
   padding: 10px 0;
   font-family: "Maven Pro", monospace;
@@ -368,21 +368,21 @@ p {
   text-align: center;
 }
 
-/* line 9, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 9, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao ul {
   border-top: 2px solid #006d34;
   border-left: 2px solid #006d34;
   padding-bottom: 20px;
 }
 
-/* line 14, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 14, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao li {
   font-family: "Maven Pro", monospace;
   line-height: "2.5em";
   padding: 10px 10px 10px 20px;
 }
 
-/* line 20, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 20, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao a {
   text-decoration: none;
   padding: 20px 0;
@@ -390,23 +390,23 @@ p {
   transition: all .3s ease;
 }
 
-/* line 26, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao a:hover {
   text-decoration: none;
   color: #c9a220;
 }
 
-/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
-.main {
-  padding-bottom: 60px;
+/* line 1, /home/santana/frontend/acebra/sass/_intro.scss */
+.intro {
+  margin-bottom: 20px;
 }
 
-/* line 3, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 5, /home/santana/frontend/acebra/sass/_intro.scss */
 .main ul {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 8, /home/santana/frontend/acebra/sass/_intro.scss */
 .main h1 {
   top: 300px;
   background: #2a2426;
@@ -421,7 +421,7 @@ p {
   opacity: 0.8;
 }
 
-/* line 22, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 23, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias h2 {
   padding: 10px 0;
   font-family: "Maven Pro", monospace;
@@ -431,56 +431,69 @@ p {
   text-align: center;
 }
 
-/* line 28, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 29, /home/santana/frontend/acebra/sass/_intro.scss */
+.noticias h6 {
+  color: #006d34;
+}
+
+/* line 32, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias ul {
   border-top: 2px solid #006d34;
   border-left: 2px solid #006d34;
   padding-bottom: 20px;
-  min-height: 338px;
-  max-height: 338px;
+  min-height: 308px;
+  max-height: 308px;
   overflow-y: scroll;
 }
 
-/* line 36, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 40, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias li {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
   line-height: "1.66667em";
   line-height: "1.94444em";
-  padding: 10px 10px 10px 20px;
+  padding: 5px 5px;
+  margin: 10px 10px 10px 10px;
+  background: #ddd7d7;
 }
 
-/* line 42, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias a {
-  padding: 20px 11px;
   text-decoration: none;
-  color: #006d34;
+  color: #011f17;
 }
 
-/* line 47, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 52, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias a:hover {
   text-decoration: none;
   color: #c9a220;
   transition: all .3s ease;
 }
 
-/* line 53, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 57, /home/santana/frontend/acebra/sass/_intro.scss */
+.noticias .leia-mais {
+  color: #006d34;
+  float: right;
+  padding: 10px 0;
+}
+
+/* line 63, /home/santana/frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-track {
   background-color: #F4F4F4;
 }
 
-/* line 57, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 66, /home/santana/frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar {
   width: 6px;
   background: #F4F4F4;
 }
 
-/* line 62, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 70, /home/santana/frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-thumb {
   background: #006d34;
 }
 
-/* line 66, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 73, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -490,7 +503,7 @@ p {
   margin: 0;
 }
 
-/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 82, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -500,14 +513,14 @@ p {
   top: 0;
 }
 
-/* line 84, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 91, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 90, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 97, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -516,14 +529,19 @@ p {
   border: 0;
 }
 
-/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 1, /home/santana/frontend/acebra/sass/_items.scss */
+.items {
+  margin-bottom: 20px;
+}
+
+/* line 4, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda, .item-meteorologia, .item-cotacao {
   border-bottom: 2px solid #006d34;
   min-height: 380px;
   max-height: 380px;
 }
 
-/* line 5, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 8, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda h2, .item-meteorologia h2, .item-cotacao h2 {
   padding: 10px 0;
   font-family: "Maven Pro", monospace;
@@ -534,12 +552,12 @@ p {
   border-bottom: 2px solid #006d34;
 }
 
-/* line 12, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 15, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda ul, .item-meteorologia ul, .item-cotacao ul {
   padding-bottom: 20px;
 }
 
-/* line 15, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 18, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda li, .item-meteorologia li, .item-cotacao li {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -548,58 +566,57 @@ p {
   padding: 10px 10px 10px 20px;
 }
 
-/* line 21, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 24, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda a, .item-meteorologia a, .item-cotacao a {
   text-decoration: none;
   color: #006d34;
 }
 
-/* line 25, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 28, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda a:hover, .item-meteorologia a:hover, .item-cotacao a:hover {
   text-decoration: none;
   color: #c9a220;
 }
 
-/* line 30, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 33, /home/santana/frontend/acebra/sass/_items.scss */
 .tabela-cotacao {
   width: 100%;
   border-collapse: inherit;
   border-spacing: 0;
 }
 
-/* line 34, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 37, /home/santana/frontend/acebra/sass/_items.scss */
 .tabela-cotacao th {
   padding: 5px 5px;
   border-bottom: 2px solid #edece4;
 }
 
-/* line 38, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 41, /home/santana/frontend/acebra/sass/_items.scss */
 .tabela-cotacao td {
   padding: 5px 5px;
   border-bottom: 1px solid #edece4;
 }
 
-/* line 44, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 47, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda #calendar {
   padding: 5px 0;
 }
 
-/* line 47, /home/santanarscs/estudo-frontend/acebra/sass/_items.scss */
+/* line 50, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda button {
   background: #006d34;
   color: #fff;
   border-radius: 0 !important;
 }
 
-/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 1, /home/santana/frontend/acebra/sass/_final.scss */
 .final {
-  margin-top: 60px;
   padding: 20px 0;
   background: #006d34;
   color: #fff;
 }
 
-/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 5, /home/santana/frontend/acebra/sass/_final.scss */
 .final h2 {
   font-family: "Maven Pro", monospace;
   font-size: "1.5em";
@@ -608,7 +625,7 @@ p {
   padding: 20px 0;
 }
 
-/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 12, /home/santana/frontend/acebra/sass/_final.scss */
 .sociais li {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -617,7 +634,7 @@ p {
   display: inline-block;
 }
 
-/* line 18, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 17, /home/santana/frontend/acebra/sass/_final.scss */
 .sociais ul li a {
   padding: 0 5px;
   text-decoration: none;
@@ -629,23 +646,23 @@ p {
   font-weight: 300;
 }
 
-/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_final.scss */
 .endereco {
   text-align: right;
 }
 
-/* line 29, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 28, /home/santana/frontend/acebra/sass/_final.scss */
 .endereco p {
   padding: 5px 0;
 }
 
-/* line 33, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 32, /home/santana/frontend/acebra/sass/_final.scss */
 .footer {
   background: #011f17;
   padding: 5px;
 }
 
-/* line 36, /home/santanarscs/estudo-frontend/acebra/sass/_final.scss */
+/* line 35, /home/santana/frontend/acebra/sass/_final.scss */
 .footer p {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -653,13 +670,13 @@ p {
   color: #fff;
 }
 
-/* line 1, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+/* line 1, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab {
   padding: 5px 0;
   overflow: hidden;
 }
 
-/* line 6, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+/* line 6, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -674,18 +691,18 @@ p {
   transition: 0.3s;
 }
 
-/* line 18, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+/* line 18, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button:hover {
   background: #c9a220;
 }
 
-/* line 22, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+/* line 22, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button.active {
   background: #006d34;
   color: #fff;
 }
 
-/* line 27, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+/* line 27, /home/santana/frontend/acebra/sass/_tab.scss */
 .tabcontent {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -696,7 +713,7 @@ p {
   border-top: none;
 }
 
-/* line 34, /home/santanarscs/estudo-frontend/acebra/sass/_tab.scss */
+/* line 34, /home/santana/frontend/acebra/sass/_tab.scss */
 .tabcontent {
   animation: fadeEffect 1s;
 }
