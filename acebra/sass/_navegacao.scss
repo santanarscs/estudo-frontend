@@ -19,7 +19,9 @@
 
     a {
         text-decoration: none;
-        color: $preto
+        padding: 20px 0;
+        color: $preto;
+        transition: all .3s ease;
     }
     a:hover {
         text-decoration: none;

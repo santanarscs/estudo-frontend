@@ -40,12 +40,14 @@
     }
 
     a {
+        padding: 20px 11px;
         text-decoration: none;
         color: $primary
     }
     a:hover {
         text-decoration: none;
-        color: $secondary
+        color: $secondary;
+        transition: all .3s ease;
     }
 }
 ::-webkit-scrollbar-track {

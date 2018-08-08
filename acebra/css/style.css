@@ -326,9 +326,10 @@ p {
   font-size: "1.125em";
   line-height: "1.66667em";
   font-weight: 300;
+  transition: all .3s ease;
 }
 
-/* line 29, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 30, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header ul li a:hover {
   padding: 20px 11px;
   text-decoration: none;
@@ -367,10 +368,12 @@ p {
 /* line 20, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao a {
   text-decoration: none;
+  padding: 20px 0;
   color: #011f17;
+  transition: all .3s ease;
 }
 
-/* line 24, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
+/* line 26, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */
 .navegacao a:hover {
   text-decoration: none;
   color: #c9a220;
@@ -432,33 +435,35 @@ p {
 
 /* line 42, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .noticias a {
+  padding: 20px 11px;
   text-decoration: none;
   color: #006d34;
 }
 
-/* line 46, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 47, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .noticias a:hover {
   text-decoration: none;
   color: #c9a220;
+  transition: all .3s ease;
 }
 
-/* line 51, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 53, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-track {
   background-color: #F4F4F4;
 }
 
-/* line 55, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 57, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar {
   width: 6px;
   background: #F4F4F4;
 }
 
-/* line 60, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 62, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-thumb {
   background: #006d34;
 }
 
-/* line 64, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 66, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -468,7 +473,7 @@ p {
   margin: 0;
 }
 
-/* line 73, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 75, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -478,14 +483,14 @@ p {
   top: 0;
 }
 
-/* line 82, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 84, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 88, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
+/* line 90, /home/santanarscs/estudo-frontend/acebra/sass/_intro.scss */
 .rslides img {
   display: block;
   height: auto;

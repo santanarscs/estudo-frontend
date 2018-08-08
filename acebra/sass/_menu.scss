@@ -24,7 +24,8 @@
         color: $preto;
         display: block;
         @include tipo-1(18);
-        font-weight: 300
+        font-weight: 300;
+        transition: all .3s ease;
     }
     ul li a:hover {
         padding: 20px 11px;
