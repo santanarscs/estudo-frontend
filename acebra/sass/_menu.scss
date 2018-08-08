@@ -7,7 +7,7 @@
     position: fixed;
     top: 0px;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 42px;
     font-family: monospace;
     transition: .3s;
     z-index: 3;
@@ -23,8 +23,8 @@
         
     }
     li {
-        @include tipo-1(18);
-        line-height: em(35, 18);
+        @include tipo-1(16);
+        line-height: em(35, 16);
         display: inline-block
     }
     ul li a {
@@ -32,17 +32,12 @@
         text-decoration: none;
         color: $preto;
         display: block;
-        @include tipo-1(18);
+        @include tipo-1(16);
         font-weight: 300;
         transition: all .3s ease;
     }
     ul li a:hover {
-        padding: 20px 11px;
-        text-decoration: none;
         color: $secondary;
-        display: block;
-        @include tipo-1(18);
-        font-weight: 300;
     }
  
 }

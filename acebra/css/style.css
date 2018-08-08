@@ -270,8 +270,8 @@ img {
 /* line 5, /home/santana/frontend/acebra/sass/_geral.scss */
 p {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
 }
 
 /* line 8, /home/santana/frontend/acebra/sass/_geral.scss */
@@ -280,9 +280,10 @@ p {
   text-align: center;
   color: #fff;
   padding: 5px 0;
+  height: 30px;
 }
 
-/* line 13, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 14, /home/santana/frontend/acebra/sass/_geral.scss */
 .header-cotacoes p {
   text-align: right;
 }
@@ -295,7 +296,7 @@ p {
   position: fixed;
   top: 0px;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 42px;
   font-family: monospace;
   transition: .3s;
   z-index: 3;
@@ -320,9 +321,9 @@ p {
 /* line 25, /home/santana/frontend/acebra/sass/_menu.scss */
 .header li {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-size: 1em;
+  line-height: 1.875em;
+  line-height: 2.1875em;
   display: inline-block;
 }
 
@@ -333,25 +334,18 @@ p {
   color: #011f17;
   display: block;
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
+  font-size: 1em;
+  line-height: 1.875em;
   font-weight: 300;
   transition: all .3s ease;
 }
 
 /* line 39, /home/santana/frontend/acebra/sass/_menu.scss */
 .header ul li a:hover {
-  padding: 20px 11px;
-  text-decoration: none;
   color: #c9a220;
-  display: block;
-  font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  font-weight: 300;
 }
 
-/* line 49, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 44, /home/santana/frontend/acebra/sass/_menu.scss */
 .small {
   padding: 5px;
   font-size: 80%;
@@ -360,10 +354,11 @@ p {
 
 /* line 2, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao h2 {
-  padding: 10px 0;
+  padding-bottom: 5px;
   font-family: "Maven Pro", monospace;
-  font-size: "1.5em";
-  line-height: "1.25em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
   color: #011f17;
   text-align: center;
 }
@@ -372,17 +367,20 @@ p {
 .navegacao ul {
   border-top: 2px solid #006d34;
   border-left: 2px solid #006d34;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
-/* line 14, /home/santana/frontend/acebra/sass/_navegacao.scss */
+/* line 16, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao li {
   font-family: "Maven Pro", monospace;
-  line-height: "2.5em";
-  padding: 10px 10px 10px 20px;
+  font-size: 0.875em;
+  line-height: 2.14286em;
+  line-height: 2.5em;
+  padding: 0 0 0 7px;
 }
 
-/* line 20, /home/santana/frontend/acebra/sass/_navegacao.scss */
+/* line 22, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao a {
   text-decoration: none;
   padding: 20px 0;
@@ -390,7 +388,7 @@ p {
   transition: all .3s ease;
 }
 
-/* line 26, /home/santana/frontend/acebra/sass/_navegacao.scss */
+/* line 28, /home/santana/frontend/acebra/sass/_navegacao.scss */
 .navegacao a:hover {
   text-decoration: none;
   color: #c9a220;
@@ -425,8 +423,8 @@ p {
 .noticias h2 {
   padding: 10px 0;
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
   color: #006d34;
   text-align: center;
 }
@@ -449,9 +447,9 @@ p {
 /* line 40, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias li {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
   padding: 5px 5px;
   margin: 10px 10px 10px 10px;
   background: #ddd7d7;
@@ -545,8 +543,8 @@ p {
 .item-agenda h2, .item-meteorologia h2, .item-cotacao h2 {
   padding: 10px 0;
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
   color: #006d34;
   text-align: center;
   border-bottom: 2px solid #006d34;
@@ -560,9 +558,9 @@ p {
 /* line 18, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda li, .item-meteorologia li, .item-cotacao li {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
   padding: 10px 10px 10px 20px;
 }
 
@@ -619,18 +617,16 @@ p {
 /* line 5, /home/santana/frontend/acebra/sass/_final.scss */
 .final h2 {
   font-family: "Maven Pro", monospace;
-  font-size: "1.5em";
-  line-height: "1.25em";
-  line-height: "1.94444em";
+  line-height: 1.94444em;
   padding: 20px 0;
 }
 
 /* line 12, /home/santana/frontend/acebra/sass/_final.scss */
 .sociais li {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
   display: inline-block;
 }
 
@@ -641,8 +637,8 @@ p {
   color: #006d34;
   display: block;
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
   font-weight: 300;
 }
 
@@ -665,8 +661,8 @@ p {
 /* line 35, /home/santana/frontend/acebra/sass/_final.scss */
 .footer p {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
   color: #fff;
 }
 
@@ -679,9 +675,9 @@ p {
 /* line 6, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
   background-color: inherit;
   float: left;
   border: none;
@@ -705,9 +701,9 @@ p {
 /* line 27, /home/santana/frontend/acebra/sass/_tab.scss */
 .tabcontent {
   font-family: "Maven Pro", monospace;
-  font-size: "1.125em";
-  line-height: "1.66667em";
-  line-height: "1.94444em";
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
   display: none;
   padding: 6px 12px;
   border-top: none;

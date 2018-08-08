@@ -10,24 +10,39 @@ $cinza-claro: #ddd7d7;
 $verde: #1ab912;
 $preto: #011f17;
 //fontes
-$font-1: 'Maven Pro',
+$fonte-1: 'Maven Pro',
 monospace;
-$font-2: 'Aref Ruqaa',
+$fonte-2: 'Aref Ruqaa',
 serif;
-@function em($pixel, $context: 16) {
-    @return $pixel / $context+'em';
+@function em($pixel, $contexto: 16) {
+	@return $pixel / $contexto + em;
+}
+@mixin tipo-1($size) {
+	font-family: $fonte-1;
+	@if $size == 14 {
+		font-size: em(14);
+		line-height: em(30, 14);
+    }
+    @else if $size == 16 {
+		font-size: em(16);
+		line-height: em(30, 16);
+	}
+    @else if $size == 18 {
+		font-size: em(18);
+		line-height: em(30, 18);
+	}
 }
 
-@mixin tipo-1($size) {
-    font-family: $font-1;
-    @if $size==18 {
-        font-size: em(18);
-        line-height: em(30, 18);
-    }
-    @else if $size==24 {
-        font-size: em(24);
-        line-height: em(30, 24);
-    }
+@mixin tipo-2($size) {
+	font-family: $fonte-2;
+	@if $size == 18 {
+		font-size: em(18);
+		line-height: em(30, 18);
+	}
+	@else if $size == 24 {
+		font-size: em(24);
+		line-height: em(30, 24);
+	}
 }
 
 @mixin tipo-2($size) {

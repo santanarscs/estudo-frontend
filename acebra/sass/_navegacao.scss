@@ -1,20 +1,22 @@
 .navegacao {
     h2 {
-        padding: 10px 0;
-        @include tipo-1(24);
-        // line-height: em(35, 24);
+        padding-bottom: 5px;
+        @include tipo-1(18);
+        line-height: em(35, 18);
         color: $preto;
         text-align: center;
     }
     ul {
         border-top: 2px solid $primary;
         border-left: 2px solid $primary;
+        padding-top: 10px;
         padding-bottom: 20px;
+
     }
     li {
         @include tipo-1(14);
         line-height: em(35, 14);
-        padding: 10px 10px 10px 20px;
+        padding: 0 0 0 7px;
     }
 
     a {
