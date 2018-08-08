@@ -292,22 +292,32 @@ p {
   -webkit-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  padding: 10px 0 10px 0;
-  margin-bottom: 40px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding-top: 40px;
+  font-family: monospace;
+  transition: .3s;
+  z-index: 3;
 }
 
-/* line 9, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 14, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.header .row {
+  background: #fff;
+}
+
+/* line 17, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 13, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 21, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header ul {
   float: right;
 }
 
-/* line 16, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 25, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header li {
   font-family: "Maven Pro", monospace;
   font-size: "1.125em";
@@ -316,7 +326,7 @@ p {
   display: inline-block;
 }
 
-/* line 21, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 30, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header ul li a {
   padding: 20px 11px;
   text-decoration: none;
@@ -329,7 +339,7 @@ p {
   transition: all .3s ease;
 }
 
-/* line 30, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+/* line 39, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
 .header ul li a:hover {
   padding: 20px 11px;
   text-decoration: none;
@@ -339,6 +349,13 @@ p {
   font-size: "1.125em";
   line-height: "1.66667em";
   font-weight: 300;
+}
+
+/* line 49, /home/santanarscs/estudo-frontend/acebra/sass/_menu.scss */
+.small {
+  padding: 5px;
+  font-size: 80%;
+  background: #fff;
 }
 
 /* line 2, /home/santanarscs/estudo-frontend/acebra/sass/_navegacao.scss */

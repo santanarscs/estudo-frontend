@@ -21,6 +21,18 @@ $(function () {
         // put your options and callbacks here
         weekends: false
     })
+    $(window).on('scroll', _.debounce(function () {
+        var $nav = $('.header'),
+            navHeight = $nav.outerHeight(),
+            windowTop = $(this).scrollTop();
+        if (windowTop > navHeight) {
+            console.log('nav pequena')
+            $nav.addClass('small');
+        } else {
+            console.log('nav grande')
+            $nav.removeClass('small');
+        }
+    }, 200))
 });
 
 function openPrice(evt, cityName) {
