@@ -6,7 +6,7 @@
     min-height: 400px;
     max-height: 400px;
     h2 {
-        padding: 10px 0;
+        padding: 5px 0 0 0;
         @include tipo-1(18);
         line-height: em(35, 18);
         color: $preto;
@@ -54,5 +54,14 @@
         background: $primary;
         color: $branco;
         border-radius: 0 !important;
+    }
+}
+.item-meteorologia {
+    img {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 80%;
+        height: 80%;
+        position: relative
     }
 }

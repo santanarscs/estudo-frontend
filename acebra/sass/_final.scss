@@ -5,6 +5,7 @@
 }
 .img-footer {
     padding: 10px 0;
+    opacity: 0.3;
 }
 .sociais {
     li {
@@ -22,6 +23,7 @@
     text-align: right;
     p {
         @include tipo-1(14);
+        line-height: em(20, 14);
         padding: 5px 0;
     }
 }
