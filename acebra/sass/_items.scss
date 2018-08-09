@@ -42,7 +42,6 @@
         border-bottom: 1px solid $bege-claro;
         @include tipo-1(14);
     }
-
 }
 .item-agenda {
     #calendar {
@@ -58,8 +57,7 @@
 }
 .item-meteorologia {
     img {
-        margin-top: 5px;
-        margin-left: 10px;
+        margin: 0 auto;
         width: 80%;
         height: 80%;
         position: relative

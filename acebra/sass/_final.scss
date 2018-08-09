@@ -36,3 +36,22 @@
     }
     
 }
+
+@include d(s){
+    .img-footer {
+        margin: 0 auto;
+    }
+    .sociais ul {
+        text-align: center;
+    }
+    .endereco {
+        text-align: center;
+    }
+    .endereco p {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .footer {
+        text-align: center;
+    }
+}
