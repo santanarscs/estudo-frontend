@@ -21,9 +21,10 @@
 }
 .noticias{
     h2 {
-        padding: 10px 0;
+        padding-bottom: 5px;
         @include tipo-1(18);
-        color: $primary;
+        line-height: em(35, 18);
+        color: $preto;
         text-align: center;
     }
     h6{
@@ -38,21 +39,21 @@
         overflow-y: scroll;
     }
     li {
-        @include tipo-1(18);
-        line-height: em(35, 18);
-        padding: 5px 5px;
-        margin: 10px 10px 10px 10px;
+        @include tipo-1(14);
+        line-height: em(35, 14);
+        padding: 5px;
+        margin: 5px;
         background: $cinza-claro
     }
 
     a {
         text-decoration: none;
-        color: $preto
+        color: $preto;
+        transition: all .3s ease;
     }
     a:hover {
-        text-decoration: none;
         color: $secondary;
-        transition: all .3s ease;
+        
     }
     .leia-mais {
         color: $primary;

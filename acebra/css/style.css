@@ -394,6 +394,12 @@ p {
   color: #c9a220;
 }
 
+/* line 32, /home/santana/frontend/acebra/sass/_navegacao.scss */
+.navegacao .facebook-ul {
+  min-height: 280px;
+  max-height: 280px;
+}
+
 /* line 1, /home/santana/frontend/acebra/sass/_intro.scss */
 .intro {
   margin-bottom: 20px;
@@ -421,20 +427,21 @@ p {
 
 /* line 23, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias h2 {
-  padding: 10px 0;
+  padding-bottom: 5px;
   font-family: "Maven Pro", monospace;
   font-size: 1.125em;
   line-height: 1.66667em;
-  color: #006d34;
+  line-height: 1.94444em;
+  color: #011f17;
   text-align: center;
 }
 
-/* line 29, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 30, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias h6 {
   color: #006d34;
 }
 
-/* line 32, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 33, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias ul {
   border-top: 2px solid #006d34;
   border-left: 2px solid #006d34;
@@ -444,54 +451,53 @@ p {
   overflow-y: scroll;
 }
 
-/* line 40, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 41, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias li {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
-  line-height: 1.94444em;
-  padding: 5px 5px;
-  margin: 10px 10px 10px 10px;
+  font-size: 0.875em;
+  line-height: 2.14286em;
+  line-height: 2.5em;
+  padding: 5px;
+  margin: 5px;
   background: #ddd7d7;
 }
 
-/* line 48, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 49, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias a {
   text-decoration: none;
   color: #011f17;
-}
-
-/* line 52, /home/santana/frontend/acebra/sass/_intro.scss */
-.noticias a:hover {
-  text-decoration: none;
-  color: #c9a220;
   transition: all .3s ease;
 }
 
-/* line 57, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 54, /home/santana/frontend/acebra/sass/_intro.scss */
+.noticias a:hover {
+  color: #c9a220;
+}
+
+/* line 58, /home/santana/frontend/acebra/sass/_intro.scss */
 .noticias .leia-mais {
   color: #006d34;
   float: right;
   padding: 10px 0;
 }
 
-/* line 63, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 64, /home/santana/frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-track {
   background-color: #F4F4F4;
 }
 
-/* line 66, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 67, /home/santana/frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar {
   width: 6px;
   background: #F4F4F4;
 }
 
-/* line 70, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 71, /home/santana/frontend/acebra/sass/_intro.scss */
 ::-webkit-scrollbar-thumb {
   background: #006d34;
 }
 
-/* line 73, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 74, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -501,7 +507,7 @@ p {
   margin: 0;
 }
 
-/* line 82, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 83, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -511,14 +517,14 @@ p {
   top: 0;
 }
 
-/* line 91, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 92, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 97, /home/santana/frontend/acebra/sass/_intro.scss */
+/* line 98, /home/santana/frontend/acebra/sass/_intro.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -535,8 +541,8 @@ p {
 /* line 4, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda, .item-meteorologia, .item-cotacao {
   border-bottom: 2px solid #006d34;
-  min-height: 380px;
-  max-height: 380px;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 /* line 8, /home/santana/frontend/acebra/sass/_items.scss */
@@ -545,22 +551,22 @@ p {
   font-family: "Maven Pro", monospace;
   font-size: 1.125em;
   line-height: 1.66667em;
+  line-height: 1.94444em;
   color: #006d34;
   text-align: center;
   border-bottom: 2px solid #006d34;
 }
 
-/* line 15, /home/santana/frontend/acebra/sass/_items.scss */
+/* line 16, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda ul, .item-meteorologia ul, .item-cotacao ul {
   padding-bottom: 20px;
 }
 
-/* line 18, /home/santana/frontend/acebra/sass/_items.scss */
+/* line 19, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda li, .item-meteorologia li, .item-cotacao li {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
-  line-height: 1.94444em;
+  font-size: 0.875em;
+  line-height: 2.14286em;
   padding: 10px 10px 10px 20px;
 }
 
@@ -585,23 +591,33 @@ p {
 
 /* line 37, /home/santana/frontend/acebra/sass/_items.scss */
 .tabela-cotacao th {
-  padding: 5px 5px;
   border-bottom: 2px solid #edece4;
+  font-family: "Maven Pro", monospace;
+  font-size: 0.875em;
+  line-height: 2.14286em;
 }
 
 /* line 41, /home/santana/frontend/acebra/sass/_items.scss */
 .tabela-cotacao td {
-  padding: 5px 5px;
   border-bottom: 1px solid #edece4;
+  font-family: "Maven Pro", monospace;
+  font-size: 0.875em;
+  line-height: 2.14286em;
 }
 
-/* line 47, /home/santana/frontend/acebra/sass/_items.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda #calendar {
   padding: 5px 0;
+  font-family: "Maven Pro", monospace;
+  font-size: 0.875em;
+  line-height: 2.14286em;
 }
 
-/* line 50, /home/santana/frontend/acebra/sass/_items.scss */
+/* line 52, /home/santana/frontend/acebra/sass/_items.scss */
 .item-agenda button {
+  font-family: "Maven Pro", monospace;
+  font-size: 0.875em;
+  line-height: 2.14286em;
   background: #006d34;
   color: #fff;
   border-radius: 0 !important;
@@ -675,9 +691,8 @@ p {
 /* line 6, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
-  line-height: 1.94444em;
+  font-size: 0.875em;
+  line-height: 2.14286em;
   background-color: inherit;
   float: left;
   border: none;
@@ -687,29 +702,28 @@ p {
   transition: 0.3s;
 }
 
-/* line 18, /home/santana/frontend/acebra/sass/_tab.scss */
+/* line 17, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button:hover {
   background: #c9a220;
 }
 
-/* line 22, /home/santana/frontend/acebra/sass/_tab.scss */
+/* line 21, /home/santana/frontend/acebra/sass/_tab.scss */
 .tab button.active {
   background: #006d34;
   color: #fff;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_tab.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_tab.scss */
 .tabcontent {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
-  line-height: 1.94444em;
+  font-size: 0.875em;
+  line-height: 2.14286em;
   display: none;
   padding: 6px 12px;
   border-top: none;
 }
 
-/* line 34, /home/santana/frontend/acebra/sass/_tab.scss */
+/* line 32, /home/santana/frontend/acebra/sass/_tab.scss */
 .tabcontent {
   animation: fadeEffect 1s;
 }

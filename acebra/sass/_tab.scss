@@ -4,8 +4,7 @@
 }
 
 .tab button {
-    @include tipo-1(18);
-    line-height: em(35, 18);
+    @include tipo-1(14);
     background-color: inherit;
     float: left;
     border: none;
@@ -25,8 +24,7 @@
 }
 
 .tabcontent {
-    @include tipo-1(18);
-    line-height: em(35, 18);
+    @include tipo-1(14);
     display: none;
     padding: 6px 12px;
     border-top: none;

@@ -3,11 +3,12 @@
 }
 .item-agenda, .item-meteorologia, .item-cotacao {
     border-bottom: 2px solid $primary;
-    min-height: 380px;
-    max-height: 380px;
+    min-height: 400px;
+    max-height: 400px;
     h2 {
         padding: 10px 0;
         @include tipo-1(18);
+        line-height: em(35, 18);
         color: $primary;
         text-align: center;
         border-bottom: 2px solid $primary;
@@ -16,8 +17,7 @@
         padding-bottom: 20px;
     }
     li {
-        @include tipo-1(18);
-        line-height: em(35, 18);
+        @include tipo-1(14);
         padding: 10px 10px 10px 20px;
     }
 
@@ -35,19 +35,22 @@
         border-collapse: inherit;
         border-spacing: 0;
      th {
-        padding: 5px 5px;
-        border-bottom: 2px solid $bege-claro
+        border-bottom: 2px solid $bege-claro;
+        @include tipo-1(14);
     }
      td {
-        padding: 5px 5px;
-        border-bottom: 1px solid $bege-claro
+        border-bottom: 1px solid $bege-claro;
+        @include tipo-1(14);
     }
+
 }
 .item-agenda {
     #calendar {
         padding: 5px 0;
+        @include tipo-1(14);
     }
     button {
+        @include tipo-1(14);
         background: $primary;
         color: $branco;
         border-radius: 0 !important;
