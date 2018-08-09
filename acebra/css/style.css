@@ -552,7 +552,7 @@ p {
   font-size: 1.125em;
   line-height: 1.66667em;
   line-height: 1.94444em;
-  color: #006d34;
+  color: #011f17;
   text-align: center;
   border-bottom: 2px solid #006d34;
 }
@@ -625,60 +625,54 @@ p {
 
 /* line 1, /home/santana/frontend/acebra/sass/_final.scss */
 .final {
-  padding: 20px 0;
+  padding: 10px 0;
   background: #006d34;
   color: #fff;
 }
 
-/* line 5, /home/santana/frontend/acebra/sass/_final.scss */
-.final h2 {
-  font-family: "Maven Pro", monospace;
-  line-height: 1.94444em;
-  padding: 20px 0;
+/* line 6, /home/santana/frontend/acebra/sass/_final.scss */
+.img-footer {
+  padding: 10px 0;
 }
 
-/* line 12, /home/santana/frontend/acebra/sass/_final.scss */
+/* line 10, /home/santana/frontend/acebra/sass/_final.scss */
 .sociais li {
-  font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
-  line-height: 1.94444em;
   display: inline-block;
 }
 
-/* line 17, /home/santana/frontend/acebra/sass/_final.scss */
+/* line 13, /home/santana/frontend/acebra/sass/_final.scss */
 .sociais ul li a {
   padding: 0 5px;
   text-decoration: none;
   color: #006d34;
   display: block;
-  font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
   font-weight: 300;
 }
 
-/* line 26, /home/santana/frontend/acebra/sass/_final.scss */
+/* line 21, /home/santana/frontend/acebra/sass/_final.scss */
 .endereco {
   text-align: right;
 }
 
-/* line 28, /home/santana/frontend/acebra/sass/_final.scss */
+/* line 23, /home/santana/frontend/acebra/sass/_final.scss */
 .endereco p {
+  font-family: "Maven Pro", monospace;
+  font-size: 0.875em;
+  line-height: 2.14286em;
   padding: 5px 0;
 }
 
-/* line 32, /home/santana/frontend/acebra/sass/_final.scss */
+/* line 28, /home/santana/frontend/acebra/sass/_final.scss */
 .footer {
   background: #011f17;
   padding: 5px;
 }
 
-/* line 35, /home/santana/frontend/acebra/sass/_final.scss */
+/* line 31, /home/santana/frontend/acebra/sass/_final.scss */
 .footer p {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
+  font-size: 0.875em;
+  line-height: 2.14286em;
   color: #fff;
 }
 

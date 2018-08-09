@@ -1,17 +1,13 @@
 .final {
-    padding: 20px 0;
+    padding: 10px 0;
     background: $primary;
     color: $branco;
-    h2 {
-        @include tipo-1(24);
-        line-height: em(35, 18);
-        padding: 20px 0;
-    }
+}
+.img-footer {
+    padding: 10px 0;
 }
 .sociais {
     li {
-        @include tipo-1(18);
-        line-height: em(35, 18);
         display: inline-block
     }
     ul li a {
@@ -19,13 +15,13 @@
         text-decoration: none;
         color: $primary;
         display: block;
-        @include tipo-1(18);
         font-weight: 300
     }
 }
 .endereco {
     text-align: right;
     p {
+        @include tipo-1(14);
         padding: 5px 0;
     }
 }
@@ -33,7 +29,8 @@
     background: $preto;
     padding: 5px;
     p {
-        @include tipo-1(18);
+        @include tipo-1(14);
         color : $branco;
     }
+    
 }
