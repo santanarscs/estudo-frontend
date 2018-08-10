@@ -1,0 +1,44 @@
+.legislacao {
+    h1{
+        @include tipo-1(24);
+        line-height: em(35,24);
+        background: $primary;
+        color: $branco;
+        padding: 5px;
+        margin-bottom: 10px;
+        @include box-shadow(0px 3px 0 0px $secondary,
+                        0 3px 6px rgba(0,0,0,0.16), 
+                        0 3px 6px rgba(0,0,0,0.23)
+        ); 
+        border-radius: 10px 0px 10px 0;
+    }
+    h2 {
+        @include tipo-1(18);
+        padding: 10px 0 0 10px;
+        // border-bottom: 3px solid $secondary
+    }
+    h2:after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 3px;
+        background: $secondary;
+
+    }
+    .fas {
+        padding: 5px;
+        color: $primary;
+    }
+    a {
+        padding: 15px 11px;
+        text-decoration: none;
+        color: $preto;
+        display: inline-block;
+        @include tipo-1(16);
+        font-weight: 300;
+        transition: all .3s ease;
+    }
+    a:hover {
+        color: $secondary;
+    }
+}
