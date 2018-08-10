@@ -1,4 +1,4 @@
-.sobre {
+.diretoria {
     h1{
         @include tipo-1(24);
         line-height: em(35,24);
@@ -12,7 +12,24 @@
         ); 
         border-radius: 10px 0px 10px 0;
     }
+    h2 {
+        @include tipo-1(18);
+        padding: 10px 0 0 10px;
+        // border-bottom: 3px solid $secondary
+    }
+    h2:after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 3px;
+        background: $secondary;
+
+    }
     p{
         padding: 10px;
+    }
+    .fas {
+        padding: 5px;
+        color: $primary;
     }
 }
