@@ -1,21 +1,22 @@
 .navegacao {
     h2 {
-        padding-bottom: 5px;
         @include tipo-1(18);
-        line-height: em(35, 18);
-        color: $preto;
+        background: $primary;
+        color: $branco;
         text-align: center;
+        @include box-shadow(0px 3px 0 0px $secondary,
+                        0 3px 6px rgba(0,0,0,0.16), 
+                        0 3px 6px rgba(0,0,0,0.23)
+        );
+        border-radius: 10px 0px 10px 0;
     }
     ul {
-        border-top: 2px solid $primary;
-        border-left: 2px solid $primary;
         padding-top: 10px;
         margin-bottom: 20px;
-
+        box-shadow: 0 4px 2px -2px $secondary;
     }
     li {
         @include tipo-1(14);
-        line-height: em(35, 14);
         padding: 0 0 0 7px;
     }
 
@@ -24,10 +25,10 @@
         padding: 20px 0;
         color: $preto;
         transition: all .3s ease;
-    }
-    a:hover {
-        text-decoration: none;
-        color: $secondary
+        &:hover {
+            text-decoration: none;
+            color: $secondary
+        }
     }
     .facebook-ul {
         min-height: 280px;
