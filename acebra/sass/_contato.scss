@@ -15,15 +15,15 @@
     h2 {
         @include tipo-1(18);
         padding: 10px 0 0 10px;
+        &:after {
+            content: '';
+            display: block;
+            width: 35px;
+            height: 3px;
+            background: $secondary;
+        }
     }
-    h2:after {
-        content: '';
-        display: block;
-        width: 35px;
-        height: 3px;
-        background: $secondary;
-
-    }
+    h2
     .fas {
         padding: 5px;
         color: $primary;
@@ -36,9 +36,9 @@
         @include tipo-1(16);
         font-weight: 300;
         transition: all .3s ease;
-    }
-    a:hover {
-        color: $secondary;
+        &:hover {
+            color: $secondary;
+        }
     }
 }
 .contato-form {
@@ -79,5 +79,25 @@ input.button {
     transition: .3s;
     &:hover {
         background: $secondary
+    }
+}
+@include d(s){
+    h1 {
+        @include tipo-1(18);
+        text-align: center;
+    }
+    h2 {
+        @include tipo-1(16);
+        text-align:center;
+        &:after {
+            margin: 0 auto;
+        }
+    }
+    p{
+        @include tipo-1(14);
+        text-align: center;
+    }
+    input.button {
+        margin: 0 auto;
     }
 }

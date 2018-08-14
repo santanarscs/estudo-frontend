@@ -29,9 +29,9 @@
         @include tipo-1(16);
         font-weight: 300;
         transition: all .3s ease;
-    }
-    ul li a:hover {
-        color: $secondary;
+        &:hover {
+            color: $secondary;
+        }
     }
     @include d(s){
         img {

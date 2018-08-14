@@ -41,4 +41,21 @@
             color: $secondary;
         }
     }
+    @include d(s){
+        h1 {
+            @include tipo-1(18);
+            text-align: center;
+        }
+        h2 {
+            @include tipo-1(16);
+            text-align:center;
+            &:after {
+                margin: 0 auto;
+            }
+        }
+        p{
+            @include tipo-1(14);
+            text-align: center;
+        }
+    }
 }

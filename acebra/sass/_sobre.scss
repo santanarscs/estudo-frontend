@@ -15,4 +15,13 @@
     p{
         padding: 10px;
     }
+    @include d(s){
+        h1 {
+            @include tipo-1(18);
+            text-align: center;
+        }
+        p{
+            @include tipo-1(14)
+        }
+    }
 }
