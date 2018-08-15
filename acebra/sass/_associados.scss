@@ -1,4 +1,4 @@
-.sobre {
+.associados {
     h1{
         @include tipo-1(24);
         line-height: em(35,24);
@@ -24,8 +24,20 @@
         }
     }
     p{
+        @include tipo-1(14);
         padding: 10px;
+    }
+    .fas {
+        padding: 5px;
+        color: $primary;
+    }
+    ul {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+    li {
         @include tipo-1(16);
+        padding: 0 0 0 7px;
     }
     @include d(s){
         h1 {
@@ -40,7 +52,8 @@
             }
         }
         p{
-            @include tipo-1(14)
+            @include tipo-1(14);
+            text-align: center;
         }
     }
 }
