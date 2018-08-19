@@ -33,6 +33,8 @@ $(function () {
     //         $nav.removeClass('small');
     //     }
     // }, 200))
+
+    $("#menu").metisMenu();
 });
 
 function openPrice(evt, cityName) {
