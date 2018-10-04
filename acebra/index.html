@@ -10,251 +10,201 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
-
 </head>
 
 <body>
-    <div class="header-cotacoes ">
-        <div class="container">
-            <p class="grid-12">Cotações Meteorolgia</p>
+    <section class="header-logo container">
+        <div class="row ">
+            <div class="grid-2">
+                <div class="logo">
+                    <img src="img/acebra.png" alt="ACEBRA">
+                </div>
+            </div>
+            <div class="grid-8 offset-2">
+                <ul class="associates">
+                    <li class="associate-item">
+                        <a href="#">ACEPAR</a>
+                    </li>
+                    <li class="associate-item">
+                        <a href="#">ACERGS</a>
+                    </li>
+                    <li class="associate-item">
+                        <a href="#">ACEMAT</a>
+                    </li>
+                    <li class="associate-item">
+                        <a href="#">ACESC</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <header class="header">
+    </section>
+    <header class="menu">
+        <div class="container">
+            <nav class="header-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Quem Somos</a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a href="quem_somos.html">História</a>
+                            </li>
+                            <li>
+                                <a href="diretoria.html">Diretoria</a>
+                            </li>
+                            <li>
+                                <a href="legislacao.html">Estatuto</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="associados.html">Associados</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <ul class="rslides">
+            <li>
+                <img src="img/intro.jpg" alt="introdução acebra">
+                <h1>Slide de ultmas noticias do Blog</h1>
+            </li>
+            <li>
+                <img src="img/trigo.png" alt="introdução acebra">
+                <h1>Noticais para o Blog</h1>
+            </li>
+            <li>
+                <img src="img/trigo2.png" alt="introdução acebra">
+                <h1>Ultimo Slide</h1>
+            </li>
+        </ul>
+    </section>
+    <section class="content">
         <div class="container">
             <div class="row">
                 <div class="grid-2">
-                    <img src="img/acebra1.png" alt="ACEBRA">
+                    <section class="navigation">
+                        <ul class="navigation-data">
+                            <li><a href="">Notícias</a></li>
+                            <li><a href="">Newlestter</a></li>
+                            <li><a href="">Jornal ACEBRA</a></li>
+                            <li><a href="">Publicações</a></li>
+                            <li><a href="">Receba a Newlestter</a>
+                                <form class="newlestter-form">
+                                    <label>E-mail</label>
+                                    <input type="text" placeholder="Digite seu e-mail">
+                                    <button type="submit">Enviar</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="social">
+                        <div class="facebook">
+                            <h2>facebook</h2>
+                        </div>
+                    </section>
                 </div>
                 <div class="grid-10">
-                    <nav class="header-menu">
-                        <ul>
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="dropdown">
-                                <a>Quem Somos</a>
-                                <ul class="dropdown-content">
-                                    <li>
-                                        <a href="quem_somos.html">História</a>
-                                    </li>
-                                    <li>
-                                        <a href="diretoria.html">Diretoria</a>
-                                    </li>
-                                    <li>
-                                        <a href="legislacao.html">Estatuto</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="associados.html">Associados</a>
-                            </li>
-                            <li>
-                                <a href="contato.html">Contato</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="container" style="margin-top: 20px">
-        <div class="row">
-            <div class="grid-2">
-                <div class="grid-12">
-                    <nav class="navegacao">
-                        <h2>Associações</h2>
-                        <ul>
-                            <li>
-                                <a href="#">ACERGS</a>
-                            </li>
-                            <li>
-                                <a href="#">ACESC</a>
-                            </li>
-                            <li>
-                                <a href="#">ACEPAR</a>
-                            </li>
-                            <li>
-                                <a href="#">ACEMAT</a>
-                            </li>
-                            <li>
-                                <a href="associar.html">Associe-se</a>
-                            </li>
-                        </ul>
-                        <h2>Importante</h2>
-                        <ul class="metismenu" id="menu">
-                            <li >
-                                <a href="#" aria-expanded="false">Câmaras Temáticas</a>
-                                <ul>
-                                    <li>
-                                        <a href="#"> Crédito, Seguro e Comercialização do Agronegócio</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> Insumos Agropecuários</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> Infraestrutura e Logística do Agronegócio</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" aria-expanded="false">Câmaras Setoriais</a>
-                                <ul>
-                                    <li>
-                                        <a href="">Soja</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Culturas de Inverno</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Milho de sorgo</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Feijão e Pulses</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <h2>Conteúdo</h2>
-                        <ul class="facebook-ul">
-                            <li>
-                                <a href="#"> Notícias</a>
-                            </li>
-                            <li>
-                                <a href="#"> Newsletter</a>
-                            </li>
-                            <li>
-                                <a href="#"> Jornal ACEBRA</a>
-                            </li>
-                            <li>
-                                <a href="#"> Publicações</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="grid-10">
-                <section class="intro">
-                    <div class="row">
-                        <div class="grid-8">
-                            <section class="main">
-                                <ul class="rslides">
-                                    <li>
-                                        <img src="img/intro.jpg" alt="introdução acebra">
-                                        <h1>Slide de ultmas noticias do Blog</h1>
-                                    </li>
-                                    <li>
-                                        <img src="img/trigo.png" alt="introdução acebra">
-                                        <h1>Noticais para o Blog</h1>
-                                    </li>
-                                    <li>
-                                        <img src="img/trigo2.png" alt="introdução acebra">
-                                        <h1>Ultimo Slide</h1>
-                                    </li>
-                                </ul>
-                            </section>
-                        </div>
-                        <div class="grid-4">
-                            <section class="noticias">
-                                <h2>Notícias</h2>
-                                <ul>
-                                    <li>
-                                        <h6>Terça-Feira 21/02</h6>
-                                        <a href="#">
-                                            <p>Câmara setorial debate tendências do mercado e conjuntura do trigo</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <h6>Terça-Feira 21/02</h6>
-                                        <a href="#">
-                                            <p>NOTA À IMPRENSA – FRETE TABELADO, COMIDA MAIS CARA</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <h6>Terça-Feira 21/02</h6>
-                                        <a href="#">
-                                            <p>MERCADO DE INSUMOS E NOVA DE LEI DEFENSIVOS SÃO TEMA DE DISCUSSÃO</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <h6>Terça-Feira 21/02</h6>
-                                        <a href="#">
-                                            <p>TABELA FRETE APROVADA: O QUE ACONTECE AGORA?</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <h6>Terça-Feira 21/02</h6>
-                                        <a href="#">
-                                            <p>CÂMARA SETORIAL DO MILHO DEMONSTRA PREOCUPAÇÃO COM O MERCADO</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <h6>Terça-Feira 21/02</h6>
-                                        <a href="#">
-                                            <p>MP DA TABELA FRETE DEVE SER VOTADA ANTES DO RECESSO PARLAMENTAR</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <a href="#" class="leia-mais">Leia mais...</a>
-                            </section>
-                        </div>
-                    </div>
-                </section>
-                <section class="items">
-                    <div class="row">
-                        <div class="grid-4">
-                            <section class="item-agenda ">
-                                <h2>Agenda</h2>
-                                <div id="calendar"></div>
-                            </section>
-                        </div>
-                        <div class="grid-4">
-                            <section class="item-meteorologia">
-                                <h2>Meteorologia</h2>
-                                <table class="tabela-cotacao">
-                                    <thead>
-                                        <tr>
-                                            <th>Estado</th>
-                                            <th>Mínima</th>
-                                            <th>Máxima</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Soja</td>
-                                            <td>886,75</td>
-                                            <td>9,50</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Milho</td>
-                                            <td>386,75</td>
-                                            <td>5,50</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Trigo</td>
-                                            <td>726,75</td>
-                                            <td>9,50</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <img src="http://imagens.climatempo.com.br/mapas/brasil_prev1_menor.gif" alt="Meteorolgia ACEBRA">
-                            </section>
-                        </div>
-                        <div class="grid-4">
-                            <section class="item-cotacao">
-                                <h2>Cotações</h2>
-                                <div class="tab">
-                                    <button class="tablinks" onclick="openPrice(event, 'Commodities')" id="defaultOpen">Commodities</button>
-                                    <button class="tablinks" onclick="openPrice(event, 'Indices')">Índices</button>
+                    <section class="news">
+                        <h2>Noticias</h2>
+                        <div class="row">
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
                                 </div>
-
-                                <!-- Tab content -->
-                                <div id="Commodities" class="tabcontent">
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="informations">
+                        <div class="row">
+                            <div class="grid-4">
+                                <section class="item-agenda ">
+                                    <h2>Agenda</h2>
+                                    <div id="calendar"></div>
+                                </section>
+                            </div>
+                            <div class="grid-4">
+                                <section class="item-meteorologia">
+                                    <h2>Meteorologia</h2>
                                     <table class="tabela-cotacao">
                                         <thead>
                                             <tr>
-                                                <th>Contrato</th>
-                                                <th>Preço</th>
-                                                <th>VAR</th>
+                                                <th>Estado</th>
+                                                <th>Mínima</th>
+                                                <th>Máxima</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -273,70 +223,140 @@
                                                 <td>726,75</td>
                                                 <td>9,50</td>
                                             </tr>
-                                            <tr>
-                                                <td>Café</td>
-                                                <td>82,75</td>
-                                                <td>9,50</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Açúcar</td>
-                                                <td>66,75</td>
-                                                <td>9,50</td>
-                                            </tr>
                                         </tbody>
                                     </table>
-                                </div>
-
-                                <div id="Indices" class="tabcontent">
-                                    <h3>Paris</h3>
-                                    <p>Paris is the capital of France.</p>
-                                </div>
-
-
-                            </section>
+                                    <img src="http://imagens.climatempo.com.br/mapas/brasil_prev1_menor.gif" alt="Meteorolgia ACEBRA">
+                                </section>
+                            </div>
+                            <div class="grid-4">
+                                <section class="item-cotacao">
+                                    <h2>Cotações</h2>
+                                    <div class="tab">
+                                        <button class="tablinks" onclick="openPrice(event, 'Commodities')" id="defaultOpen">Commodities</button>
+                                        <button class="tablinks" onclick="openPrice(event, 'Indices')">Índices</button>
+                                    </div>
+                                    <!-- Tab content -->
+                                    <div id="Commodities" class="tabcontent">
+                                        <table class="tabela-cotacao">
+                                            <thead>
+                                                <tr>
+                                                    <th>Contrato</th>
+                                                    <th>Preço</th>
+                                                    <th>VAR</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Soja</td>
+                                                    <td>886,75</td>
+                                                    <td>9,50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Milho</td>
+                                                    <td>386,75</td>
+                                                    <td>5,50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Trigo</td>
+                                                    <td>726,75</td>
+                                                    <td>9,50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Café</td>
+                                                    <td>82,75</td>
+                                                    <td>9,50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Açúcar</td>
+                                                    <td>66,75</td>
+                                                    <td>9,50</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div id="Indices" class="tabcontent">
+                                        <h3>Paris</h3>
+                                        <p>Paris is the capital of France.</p>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-    <section class="final">
-        <div class="container">
-            <div class="grid-3 sociais">
-                <img class="img-footer" src="img/logo_branco.png">
-                <ul>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="img/facebook.png" alt="Facebook ACEBRA ">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="img/instagram.png" alt="Instagram ACEBRA ">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="img/linkedin.png" alt="Linkedin ACEBRA ">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="grid-9 endereco">
-                <p>Associações das Empresas Cerealistas do Brasil - ACEBRA</p>
-                <p>
-                    SHN- Quadra 01, Bloco A
-                    <br> Ed Le Quartier, Sala 636, Brasília - DF CEP 70701-010
-                    <br> TEL/FAX (61) 3327-4972
-                    <br>
-                </p>
+                    </section>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="grid-12">
-                <p>Copyright 2018 ACEBRA - Proibida a cópia total ou parcial do conteúdo deste site.</p>
+    <section class="break">
+        <blockquote class="quote container">
+            <p> Frase do Presidente</p>
+            <cite>Nome do Presidente</cite>
+        </blockquote>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="grid-3">
+                        <h2>Institucional</h2>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Institucional</a></li>
+                            <li><a href="">Diretoria</a></li>
+                            <li><a href="">Associados</a></li>
+                            <li><a href="">Imprensa</a></li>
+                            <li><a href="">Associe-se</a></li>
+                            <li><a href="">Fale Conosco</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-3">
+                        <h2>Seções do Portal</h2>
+                        <ul>
+                            <li><a href="">Notícias</a></li>
+                            <li><a href="">Agenda Agropecuária</a></li>
+                            <li><a href="">Câmara Técnicas</a></li>
+                            <li><a href="">Câmaras Políticas</a></li>
+                            <li><a href="">Mercado Agrícola</a></li>
+                            <li><a href="">Plano Agrícola e Pecuário</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-3">
+                        <h2>Seções do Portal</h2>
+                        <ul>
+                            <li><a href="">Informativo Técnico</a></li>
+                            <li><a href="">Meteorologia</a></li>
+                            <li><a href="">Leis e Normas</a></li>
+                            <li><a href="">Arquivos</a></li>
+                            <li><a href="">Links</a></li>
+                            <li><a href="">Mapa do Site</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-3">
+                        <h2>Associação das Empresas Cerealistas do Brasil</h2>
+                        <p>
+                            Endereço: SHN - Quadra 01. Bloco "A" <br>
+                            Ed Le Quartier, Sala 626, Brasília - DF <br>
+                            CEP: 70701-010 <br>
+                            TEL/FAX: (61) 3327-4972
+                        </p>
+                        <div class="img-footer">
+                            <img src="img/logo_branco.png" alt="ACEBRA">
+                        </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                                <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                                <li><a href="#"><img src="img/instagram.png" alt="instragram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-12">
+                    Copyright 2018 ACEBRA - Proibida a cópia total ou parcial do conteúdo deste site.
+                </p>
             </div>
         </div>
     </footer>
@@ -345,9 +365,6 @@
     <script src="js/plugins.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-
-    </script>
 </body>
 
 </html>
