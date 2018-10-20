@@ -575,9 +575,10 @@ p {
   box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   padding: 12px 16px;
   z-index: 90;
+  transition: all .3s ease;
 }
 
-/* line 110, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 111, /home/santana/frontend/acebra/sass/_menu.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -1295,17 +1296,21 @@ p {
   font-size: 1.5em;
   line-height: 1.25em;
   line-height: 1.45833em;
-  background: #006d34;
-  color: #fff;
+  color: #011f17;
   padding: 5px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 10px 0px 10px 0;
+  text-transform: uppercase;
 }
 
-/* line 15, /home/santana/frontend/acebra/sass/_legislacao.scss */
+/* line 8, /home/santana/frontend/acebra/sass/_legislacao.scss */
+.legislacao h1:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #006d34;
+}
+
+/* line 16, /home/santana/frontend/acebra/sass/_legislacao.scss */
 .legislacao h2 {
   font-family: "Maven Pro", monospace;
   font-size: 1.125em;
@@ -1314,21 +1319,12 @@ p {
 }
 
 /* line 20, /home/santana/frontend/acebra/sass/_legislacao.scss */
-.legislacao h2:after {
-  content: '';
-  display: block;
-  width: 35px;
-  height: 3px;
-  background: #c9a220;
-}
-
-/* line 28, /home/santana/frontend/acebra/sass/_legislacao.scss */
 .legislacao .fas {
   padding: 5px;
   color: #006d34;
 }
 
-/* line 32, /home/santana/frontend/acebra/sass/_legislacao.scss */
+/* line 24, /home/santana/frontend/acebra/sass/_legislacao.scss */
 .legislacao a {
   padding: 15px 11px;
   text-decoration: none;
@@ -1341,31 +1337,31 @@ p {
   transition: all .3s ease;
 }
 
-/* line 40, /home/santana/frontend/acebra/sass/_legislacao.scss */
+/* line 32, /home/santana/frontend/acebra/sass/_legislacao.scss */
 .legislacao a:hover {
   color: #c9a220;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 45, /home/santana/frontend/acebra/sass/_legislacao.scss */
+  /* line 37, /home/santana/frontend/acebra/sass/_legislacao.scss */
   .legislacao h1 {
     font-family: "Maven Pro", monospace;
     font-size: 1.125em;
     line-height: 1.66667em;
     text-align: center;
   }
-  /* line 49, /home/santana/frontend/acebra/sass/_legislacao.scss */
+  /* line 41, /home/santana/frontend/acebra/sass/_legislacao.scss */
   .legislacao h2 {
     font-family: "Maven Pro", monospace;
     font-size: 1em;
     line-height: 1.875em;
     text-align: center;
   }
-  /* line 52, /home/santana/frontend/acebra/sass/_legislacao.scss */
+  /* line 44, /home/santana/frontend/acebra/sass/_legislacao.scss */
   .legislacao h2:after {
     margin: 0 auto;
   }
-  /* line 56, /home/santana/frontend/acebra/sass/_legislacao.scss */
+  /* line 48, /home/santana/frontend/acebra/sass/_legislacao.scss */
   .legislacao p {
     font-family: "Maven Pro", monospace;
     font-size: 0.875em;
