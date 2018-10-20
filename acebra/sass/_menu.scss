@@ -1,7 +1,8 @@
 .header-logo {
-    padding-top: 20px;
-    .logo{
-        img{
+
+    // padding-top: 5px;
+    .logo {
+        img {
             padding: 15px 0;
             display: block;
             margin: 0 auto;
@@ -9,40 +10,48 @@
             width: 150px;
         }
     }
+
     ul {
         float: right;
-        ;
-            }
+        margin-top: 5px;
+    }
 
     li {
         display: inline-block;
-        margin-left: 20px;
-        img{
+        margin-left: 40px;
+        // margin-right: 40px;
+
+        img {
             padding: 15px 0;
             display: block;
             margin: 0 auto;
-            height: 100px;
-            width: 200px;
+            // height: 100px;
+            // width: 200px;
         }
+
         a {
             text-decoration: none;
             color: $primary;
             font-weight: bold;
             display: block;
             @include tipo-1(18);
+            padding: 5px 10px;
         }
     }
-  
+
 }
+
 .menu {
     background: $primary
 }
 
 .header-menu {
     width: 100%;
+
     .row {
         background: $branco;
     }
+
     ul {
         float: right;
     }

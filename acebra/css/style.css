@@ -442,12 +442,7 @@ p {
 }
 
 /*# sourceMappingURL=metisMenu.min.css.map */
-/* line 1, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-logo {
-  padding-top: 20px;
-}
-
-/* line 4, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 5, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-logo .logo img {
   padding: 15px 0;
   display: block;
@@ -456,27 +451,26 @@ p {
   width: 150px;
 }
 
-/* line 12, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 14, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-logo ul {
   float: right;
+  margin-top: 5px;
 }
 
-/* line 17, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 19, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-logo li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
-/* line 20, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 24, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-logo li img {
   padding: 15px 0;
   display: block;
   margin: 0 auto;
-  height: 100px;
-  width: 200px;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 32, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-logo li a {
   text-decoration: none;
   color: #006d34;
@@ -485,29 +479,30 @@ p {
   font-family: "Maven Pro", monospace;
   font-size: 1.125em;
   line-height: 1.66667em;
+  padding: 5px 10px;
 }
 
-/* line 37, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 44, /home/santana/frontend/acebra/sass/_menu.scss */
 .menu {
   background: #006d34;
 }
 
-/* line 41, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-menu {
   width: 100%;
 }
 
-/* line 43, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 51, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-menu .row {
   background: #fff;
 }
 
-/* line 46, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 55, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-menu ul {
   float: right;
 }
 
-/* line 50, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 59, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-menu li {
   font-family: "Maven Pro", monospace;
   font-size: 1em;
@@ -516,7 +511,7 @@ p {
   display: inline-block;
 }
 
-/* line 56, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 65, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-menu ul li a {
   padding: 5px 10px;
   text-decoration: none;
@@ -529,42 +524,42 @@ p {
   transition: all .3s ease;
 }
 
-/* line 65, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 74, /home/santana/frontend/acebra/sass/_menu.scss */
 .header-menu ul li a:hover {
   color: #c9a220;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 71, /home/santana/frontend/acebra/sass/_menu.scss */
+  /* line 80, /home/santana/frontend/acebra/sass/_menu.scss */
   .header-menu img {
     width: 70%;
     margin: 0 auto 10x auto;
   }
-  /* line 76, /home/santana/frontend/acebra/sass/_menu.scss */
+  /* line 85, /home/santana/frontend/acebra/sass/_menu.scss */
   .header-menu .header-menu {
     text-align: center;
   }
-  /* line 80, /home/santana/frontend/acebra/sass/_menu.scss */
+  /* line 89, /home/santana/frontend/acebra/sass/_menu.scss */
   .header-menu ul li a {
     padding: 5px;
   }
 }
 
-/* line 86, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 95, /home/santana/frontend/acebra/sass/_menu.scss */
 .small {
   padding: 5px;
   font-size: 80%;
   background: #fff;
 }
 
-/* line 92, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 101, /home/santana/frontend/acebra/sass/_menu.scss */
 .dropdown {
   position: relative;
   display: inline-block;
   transition: all .3s ease;
 }
 
-/* line 98, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 107, /home/santana/frontend/acebra/sass/_menu.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -578,7 +573,7 @@ p {
   transition: all .3s ease;
 }
 
-/* line 111, /home/santana/frontend/acebra/sass/_menu.scss */
+/* line 120, /home/santana/frontend/acebra/sass/_menu.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
