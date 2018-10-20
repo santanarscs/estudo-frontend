@@ -1,0 +1,46 @@
+.sobre {
+    h1{
+        @include tipo-1(24);
+        line-height: em(35,24);
+        background: $primary;
+        color: $branco;
+        padding: 5px;
+        margin-bottom: 10px;
+        @include box-shadow(0px 3px 0 0px $secondary,
+                        0 3px 6px rgba(0,0,0,0.16), 
+                        0 3px 6px rgba(0,0,0,0.23)
+        ); 
+        border-radius: 10px 0px 10px 0;
+    }
+    h2 {
+        @include tipo-1(18);
+        padding: 10px 0 0 10px;
+        &:after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 3px;
+            background: $secondary;
+        }
+    }
+    p{
+        padding: 10px;
+        @include tipo-1(16);
+    }
+    @include d(s){
+        h1 {
+            @include tipo-1(18);
+            text-align: center;
+        }
+        h2 {
+            @include tipo-1(16);
+            text-align:center;
+            &:after {
+                margin: 0 auto;
+            }
+        }
+        p{
+            @include tipo-1(14)
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.contato {
+    h1{
+        @include tipo-1(24);
+        line-height: em(35,24);
+        background: $primary;
+        color: $branco;
+        padding: 5px;
+        margin-bottom: 10px;
+        @include box-shadow(0px 3px 0 0px $secondary,
+                        0 3px 6px rgba(0,0,0,0.16), 
+                        0 3px 6px rgba(0,0,0,0.23)
+        ); 
+        border-radius: 10px 0px 10px 0;
+    }
+    h2 {
+        @include tipo-1(18);
+        padding: 10px 0 0 10px;
+        &:after {
+            content: '';
+            display: block;
+            width: 35px;
+            height: 3px;
+            background: $secondary;
+        }
+    }
+    h2
+    .fas {
+        padding: 5px;
+        color: $primary;
+    }
+    a {
+        padding: 15px 11px;
+        text-decoration: none;
+        color: $preto;
+        display: inline-block;
+        @include tipo-1(16);
+        font-weight: 300;
+        transition: all .3s ease;
+        &:hover {
+            color: $secondary;
+        }
+    }
+}
+.contato-form {
+    padding: 10px;
+    label{
+        @include tipo-1(18);
+        display:block;
+    }
+    input[type="text"], textarea {
+        @include tipo-1(18);
+        color: $preto;
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        border: 2px solid $primary;
+        background: transparent;
+        margin-bottom: 1em;
+        transition: .3s;
+        &:hover, &:focus {
+            outline: none;
+            border-color: $secondary;
+
+        }
+    }
+    textarea {
+        height: 120px;
+    }
+}
+input.button {
+    @include tipo-1(18);
+    cursor: pointer;
+    color: $branco;
+    text-transform: uppercase;
+    background: $primary;
+    display: block;
+    width: 200px;
+    padding-top: 5px;
+    transition: .3s;
+    &:hover {
+        background: $secondary
+    }
+}
+@include d(s){
+    h1 {
+        @include tipo-1(18);
+        text-align: center;
+    }
+    h2 {
+        @include tipo-1(16);
+        text-align:center;
+        &:after {
+            margin: 0 auto;
+        }
+    }
+    p{
+        @include tipo-1(14);
+        text-align: center;
+    }
+    input.button {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,39 @@
+.tab {
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.tab button {
+    @include tipo-1(14);
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background: $secondary;
+}
+
+.tab button.active {
+    background: $primary;
+    color: $branco;
+}
+
+.tabcontent {
+    @include tipo-1(14);
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+.tabcontent {
+    animation: fadeEffect 1s; 
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

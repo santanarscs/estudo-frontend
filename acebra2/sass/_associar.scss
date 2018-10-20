@@ -1,0 +1,63 @@
+.associar {
+    h1{
+        @include tipo-1(24);
+        line-height: em(35,24);
+        background: $primary;
+        color: $branco;
+        padding: 5px;
+        margin-bottom: 10px;
+        @include box-shadow(0px 3px 0 0px $secondary,
+                        0 3px 6px rgba(0,0,0,0.16), 
+                        0 3px 6px rgba(0,0,0,0.23)
+        ); 
+        border-radius: 10px 0px 10px 0;
+    }
+}
+
+.associar-form {
+    padding: 10px;
+    label{
+        @include tipo-1(18);
+        display:inline-block;
+    }
+    input[type="text"], textarea {
+        @include tipo-1(18);
+        color: $preto;
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        border: 2px solid $primary;
+        background: transparent;
+        margin-bottom: 1em;
+        transition: .3s;
+        &:hover, &:focus {
+            outline: none;
+            border-color: $secondary;
+
+        }
+    }
+    textarea {
+        height: 120px;
+    }
+}
+
+@include d(s){
+    h1 {
+        @include tipo-1(18);
+        text-align: center;
+    }
+    h2 {
+        @include tipo-1(16);
+        text-align:center;
+        &:after {
+            margin: 0 auto;
+        }
+    }
+    p{
+        @include tipo-1(14);
+        text-align: center;
+    }
+    input.button {
+        margin: 0 auto;
+    }
+}

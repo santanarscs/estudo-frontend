@@ -1,0 +1,57 @@
+.final {
+    padding: 10px 0;
+    background: $primary;
+    color: $branco;
+}
+.img-footer {
+    padding: 10px 0;
+    opacity: 0.3;
+}
+.sociais {
+    li {
+        display: inline-block
+    }
+    ul li a {
+        padding: 0 5px;
+        text-decoration: none;
+        color: $primary;
+        display: block;
+        font-weight: 300
+    }
+}
+.endereco {
+    text-align: right;
+    p {
+        @include tipo-1(14);
+        line-height: em(20, 14);
+        padding: 5px 0;
+    }
+}
+.footer {
+    background: $preto;
+    padding: 5px;
+    p {
+        @include tipo-1(14);
+        color : $branco;
+    }
+    
+}
+
+@include d(s){
+    .img-footer {
+        margin: 0 auto;
+    }
+    .sociais ul {
+        text-align: center;
+    }
+    .endereco {
+        text-align: center;
+    }
+    .endereco p {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .footer {
+        text-align: center;
+    }
+}
