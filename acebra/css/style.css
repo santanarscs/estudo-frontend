@@ -1424,12 +1424,33 @@ p {
 }
 
 /* line 20, /home/santana/frontend/acebra/sass/_contato.scss */
+.contato h3 {
+  font-family: "Maven Pro", monospace;
+  font-size: 1em;
+  line-height: 1.875em;
+  padding-top: 25px;
+}
+
+/* line 24, /home/santana/frontend/acebra/sass/_contato.scss */
+.contato p {
+  font-family: "Maven Pro", monospace;
+  font-size: 0.875em;
+  line-height: 2.14286em;
+  line-height: 1.78571em;
+}
+
+/* line 28, /home/santana/frontend/acebra/sass/_contato.scss */
+.contato span {
+  display: block;
+}
+
+/* line 31, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato .fas {
   padding: 5px;
   color: #006d34;
 }
 
-/* line 24, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 35, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato a {
   padding: 15px 11px;
   text-decoration: none;
@@ -1442,55 +1463,55 @@ p {
   transition: all .3s ease;
 }
 
-/* line 32, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 43, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato a:hover {
   color: #c9a220;
 }
 
-/* line 37, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 48, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato-form {
   padding: 10px;
 }
 
-/* line 39, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 50, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato-form label {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
+  font-size: 1em;
+  line-height: 1.875em;
   display: block;
 }
 
-/* line 43, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 54, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato-form input[type="text"], .contato-form textarea {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
+  font-size: 1em;
+  line-height: 1.875em;
   color: #011f17;
   width: 100%;
   padding: 0 5px;
-  height: 40px;
+  height: 35px;
   border: 2px solid #006d34;
   background: transparent;
   margin-bottom: 1em;
   transition: .3s;
 }
 
-/* line 53, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 64, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato-form input[type="text"]:hover, .contato-form input[type="text"]:focus, .contato-form textarea:hover, .contato-form textarea:focus {
   outline: none;
   border-color: #c9a220;
 }
 
-/* line 59, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 70, /home/santana/frontend/acebra/sass/_contato.scss */
 .contato-form textarea {
   height: 120px;
 }
 
-/* line 63, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 74, /home/santana/frontend/acebra/sass/_contato.scss */
 input.button {
   font-family: "Maven Pro", monospace;
-  font-size: 1.125em;
-  line-height: 1.66667em;
+  font-size: 1em;
+  line-height: 1.875em;
   cursor: pointer;
   color: #fff;
   text-transform: uppercase;
@@ -1501,38 +1522,38 @@ input.button {
   transition: .3s;
 }
 
-/* line 73, /home/santana/frontend/acebra/sass/_contato.scss */
+/* line 84, /home/santana/frontend/acebra/sass/_contato.scss */
 input.button:hover {
   background: #c9a220;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 78, /home/santana/frontend/acebra/sass/_contato.scss */
+  /* line 89, /home/santana/frontend/acebra/sass/_contato.scss */
   h1 {
     font-family: "Maven Pro", monospace;
     font-size: 1.125em;
     line-height: 1.66667em;
     text-align: center;
   }
-  /* line 82, /home/santana/frontend/acebra/sass/_contato.scss */
+  /* line 93, /home/santana/frontend/acebra/sass/_contato.scss */
   h2 {
     font-family: "Maven Pro", monospace;
     font-size: 1em;
     line-height: 1.875em;
     text-align: center;
   }
-  /* line 85, /home/santana/frontend/acebra/sass/_contato.scss */
+  /* line 96, /home/santana/frontend/acebra/sass/_contato.scss */
   h2:after {
     margin: 0 auto;
   }
-  /* line 89, /home/santana/frontend/acebra/sass/_contato.scss */
+  /* line 100, /home/santana/frontend/acebra/sass/_contato.scss */
   p {
     font-family: "Maven Pro", monospace;
     font-size: 0.875em;
     line-height: 2.14286em;
     text-align: center;
   }
-  /* line 93, /home/santana/frontend/acebra/sass/_contato.scss */
+  /* line 104, /home/santana/frontend/acebra/sass/_contato.scss */
   input.button {
     margin: 0 auto;
   }
