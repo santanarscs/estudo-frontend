@@ -43,3 +43,23 @@
         }
     }
 }
+// .diretor{
+//     display: flex;
+//     // justify-content: center;
+// }
+.diretor-item {
+    text-align: center;
+    padding: 20px 0;
+    img{
+        margin: 0 auto;
+    }
+    h2{
+        @include tipo-1(16);
+        line-height: em(0,16);
+    }
+    p{
+        @include tipo-1(14);
+        line-height: em(20,14);
+    }
+    
+}
