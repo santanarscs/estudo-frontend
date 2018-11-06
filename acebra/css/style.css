@@ -289,154 +289,148 @@ p {
 }
 
 /*!
-* metismenu - v2.7.9
+* metismenu https://github.com/onokumus/metismenu#readme
 * A jQuery menu plugin
-* https://github.com/onokumus/metismenu#readme
-*
-* Made by Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
-* Under MIT License
+* @version 3.0.3
+* @author Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+* @license: MIT 
 */
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .arrow {
   float: right;
   line-height: 1.42857;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 [dir=rtl] .metismenu .arrow {
   float: left;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .glyphicon.arrow:before {
   content: "\e079";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .active > a > .glyphicon.arrow:before {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-active > a > .glyphicon.arrow:before {
   content: "\e114";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .fa.arrow:before {
   content: "\f104";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .active > a > .fa.arrow:before {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-active > a > .fa.arrow:before {
   content: "\f107";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .ion.arrow:before {
   content: "\f3d2";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .active > a > .ion.arrow:before {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-active > a > .ion.arrow:before {
   content: "\f3d0";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .plus-times {
   float: right;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 [dir=rtl] .metismenu .plus-times {
   float: left;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .fa.plus-times:before {
   content: "\f067";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .active > a > .fa.plus-times {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-active > a > .fa.plus-times {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .plus-minus {
   float: right;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 [dir=rtl] .metismenu .plus-minus {
   float: left;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .fa.plus-minus:before {
   content: "\f067";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .active > a > .fa.plus-minus:before {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-active > a > .fa.plus-minus:before {
   content: "\f068";
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .collapse {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-collapse:not(.mm-show) {
   display: none;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .collapse.in {
-  display: block;
-}
-
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .collapsing {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .mm-collapsing {
+  position: relative;
   height: 0;
   overflow: hidden;
-  position: relative;
+  transition-timing-function: ease;
   transition-duration: .35s;
   transition-property: height,visibility;
-  transition-timing-function: ease;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .has-arrow {
   position: relative;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 .metismenu .has-arrow:after {
-  -webkit-transform: rotate(-45deg) translateY(-50%);
-  -webkit-transform-origin: top;
-  border-color: initial;
-  border-style: solid;
-  border-width: 1px 0 0 1px;
-  content: "";
-  height: .5em;
   position: absolute;
-  right: 1em;
-  top: 50%;
-  transform: rotate(-45deg) translateY(-50%);
-  transform-origin: top;
-  transition: all .3s ease-out;
+  content: "";
   width: .5em;
+  height: .5em;
+  border-width: 1px 0 0 1px;
+  border-style: solid;
+  border-color: initial;
+  right: 1em;
+  -webkit-transform: rotate(-45deg) translateY(-50%);
+  transform: rotate(-45deg) translateY(-50%);
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  top: 50%;
+  transition: all .3s ease-out;
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
 [dir=rtl] .metismenu .has-arrow:after {
-  -webkit-transform: rotate(135deg) translateY(-50%);
-  left: 1em;
   right: auto;
+  left: 1em;
+  -webkit-transform: rotate(135deg) translateY(-50%);
   transform: rotate(135deg) translateY(-50%);
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-.metismenu .active > .has-arrow:after, .metismenu .has-arrow[aria-expanded=true]:after {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+.metismenu .has-arrow[aria-expanded=true]:after, .metismenu .mm-active > .has-arrow:after {
   -webkit-transform: rotate(-135deg) translateY(-50%);
   transform: rotate(-135deg) translateY(-50%);
 }
 
-/* line 27, /home/santana/frontend/acebra/sass/_geral.scss */
-[dir=rtl] .metismenu .active > .has-arrow:after, [dir=rtl] .metismenu .has-arrow[aria-expanded=true]:after {
+/* line 26, /home/santana/frontend/acebra/sass/_geral.scss */
+[dir=rtl] .metismenu .has-arrow[aria-expanded=true]:after, [dir=rtl] .metismenu .mm-active > .has-arrow:after {
   -webkit-transform: rotate(225deg) translateY(-50%);
   transform: rotate(225deg) translateY(-50%);
 }
@@ -487,64 +481,6 @@ p {
   background: #006d34;
 }
 
-/* line 48, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-menu {
-  width: 100%;
-}
-
-/* line 51, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-menu .row {
-  background: #fff;
-}
-
-/* line 55, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-menu ul {
-  float: right;
-}
-
-/* line 59, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-menu li {
-  font-family: "Maven Pro", monospace;
-  font-size: 1em;
-  line-height: 1.875em;
-  line-height: 2.1875em;
-  display: inline-block;
-}
-
-/* line 65, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-menu ul li a {
-  padding: 5px 10px;
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  font-family: "Maven Pro", monospace;
-  font-size: 1em;
-  line-height: 1.875em;
-  font-weight: 500;
-  transition: all .3s ease;
-}
-
-/* line 74, /home/santana/frontend/acebra/sass/_menu.scss */
-.header-menu ul li a:hover {
-  color: #c9a220;
-}
-
-@media screen and (max-width: 759px) {
-  /* line 80, /home/santana/frontend/acebra/sass/_menu.scss */
-  .header-menu img {
-    width: 70%;
-    margin: 0 auto 10x auto;
-  }
-  /* line 85, /home/santana/frontend/acebra/sass/_menu.scss */
-  .header-menu .header-menu {
-    text-align: center;
-  }
-  /* line 89, /home/santana/frontend/acebra/sass/_menu.scss */
-  .header-menu ul li a {
-    padding: 5px;
-  }
-}
-
 /* line 95, /home/santana/frontend/acebra/sass/_menu.scss */
 .small {
   padding: 5px;
@@ -552,30 +488,126 @@ p {
   background: #fff;
 }
 
-/* line 101, /home/santana/frontend/acebra/sass/_menu.scss */
-.dropdown {
+/* line 126, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav {
+  background: #006d34;
+  float: right;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 132, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav img {
+    width: 70%;
+    margin: 0 auto 10x auto;
+  }
+  /* line 137, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav .header-menu {
+    text-align: center;
+  }
+  /* line 141, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav ul li a {
+    padding: 5px;
+  }
+}
+
+/* line 147, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #006d34;
+}
+
+/* line 155, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav .metismenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 165, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav .metismenu > li {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   position: relative;
-  display: inline-block;
-  transition: all .3s ease;
 }
 
-/* line 107, /home/santana/frontend/acebra/sass/_menu.scss */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #006d34;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 3px 0 0px #c9a220, 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  padding: 12px 16px;
-  z-index: 90;
-  transition: all .3s ease;
-}
-
-/* line 120, /home/santana/frontend/acebra/sass/_menu.scss */
-.dropdown:hover .dropdown-content {
+/* line 179, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav .metismenu a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Maven Pro", monospace;
+  font-size: 1em;
+  line-height: 1.875em;
+  font-weight: 500;
+  position: relative;
   display: block;
+  outline-width: 0;
+  transition: all .3s ease-out;
+}
+
+/* line 185, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav .metismenu a:hover {
+  color: #c9a220;
+}
+
+/* line 196, /home/santana/frontend/acebra/sass/_menu.scss */
+.topbar-nav .metismenu a:hover,
+.topbar-nav .metismenu a:focus,
+.topbar-nav .metismenu a:active {
+  color: #006d34;
+  text-decoration: none;
+  background: #c9a220;
+}
+
+@media (min-width: 992px) {
+  /* line 205, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav .metismenu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  /* line 212, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav .metismenu > li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 219, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav .metismenu > li > ul {
+    position: absolute;
+    top: 100%;
+    min-width: 100%;
+    z-index: 1001;
+  }
+  /* line 226, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav.is-hoverable .metismenu > li > ul {
+    height: auto !important;
+  }
+  /* line 230, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav.is-hoverable .metismenu > li:hover > ul {
+    display: block;
+  }
+  /* line 234, /home/santana/frontend/acebra/sass/_menu.scss */
+  .topbar-nav.is-hoverable .metismenu > li:hover > a.has-arrow:after {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
 }
 
 /* line 2, /home/santana/frontend/acebra/sass/_navegacao.scss */

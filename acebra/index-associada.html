@@ -18,49 +18,21 @@
         <div class="row ">
             <div class="grid-2">
                 <div class="logo">
-                    <img src="img/acebra.png" alt="ACEBRA">
+                    <img src="img/acepar-logo.png" alt="APCEPAR">
                 </div>
-            </div>
-            <div class="grid-10 ">
-                <ul class="associates">
-                    <li class="associate-item">
-                        <a href="#">
-                            <img src="./img/acepar-logo.png" alt="ACEPAR">
-                            ACEPAR
-                        </a>
-                    </li>
-                    <li class="associate-item">
-                        <a href="#">
-                            <img src="./img/acergs-logo.png" alt="ACERGS">
-                            ACERGS
-                        </a>
-                    </li>
-                    <li class="associate-item">
-                        <a href="#">
-                            <img src="./img/acemat-logo.png" alt="ACEMAT">
-                            ACEMAT
-                        </a>
-                    </li>
-                    <li class="associate-item">
-                        <a href="#">
-                            <img src="./img/acesc-logo.png" alt="ACESC">
-                            ACESC
-                        </a>
-                    </li>
-                </ul>
             </div>
         </div>
     </section>
     <header class="menu">
         <div class="container">
-            <nav class="topbar-nav">
-                <ul class="metismenu" id="metismenu">
+            <nav class="header-menu">
+                <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li >
-                        <a  href="#" aria-expanded="false">Quem Somos</a>
-                        <ul>
+                    <li class="dropdown">
+                        <a href="#">Quem Somos</a>
+                        <ul class="dropdown-content">
                             <li>
                                 <a href="historia.html">História</a>
                             </li>
@@ -82,38 +54,16 @@
             </nav>
         </div>
     </header>
-    <section class="main">
-        <ul class="rslides">
-            <li>
-                <img src="img/001.png" alt="introdução acebra">
-                <h1>Slide de ultmas noticias do Blog</h1>
-            </li>
-            <li>
-                <img src="img/003.png" alt="introdução acebra">
-                <h1>Noticais para o Blog</h1>
-            </li>
-            <li>
-                <img src="img/004.png" alt="introdução acebra">
-                <h1>Ultimo Slide</h1>
-            </li>
-        </ul>
-    </section>
     <section class="content">
         <div class="container">
             <div class="row">
                 <div class="grid-2">
                     <section class="navigation">
-                        <ul class="navigation-data" id="menuLateral">
+                        <ul class="navigation-data">
                             <li><a href="">Notícias</a></li>
                             <li><a href="">Newlestter</a></li>
                             <li><a href="">Jornal ACEBRA</a></li>
-                            <li>
-                                <a href="#" aria-expanded="false">Publicações</a>
-                                <ul>
-                                    <li><a href="">Link 1</a></li>
-                                    <li><a href="">Link 2</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="">Publicações</a></li>
                             <li><a href="">Receba a Newlestter</a>
                                 <form class="newlestter-form">
                                     <label>E-mail</label>
@@ -131,7 +81,7 @@
                 </div>
                 <div class="grid-10">
                     <section class="news">
-                        <h2>Noticias</h2>
+                        <h2>Noticias ASSOCIADA</h2>
                         <div class="row">
                             <div class="grid-6 new">
                                 <div class="row">
@@ -207,97 +157,80 @@
                             </div>
                         </div>
                     </section>
-                    <section class="informations">
+                    <section class="news">
+                        <h2>Noticias ACEBRA</h2>
                         <div class="row">
-                            <div class="grid-4">
-                                <section class="item-agenda ">
-                                    <h2>Agenda</h2>
-                                    <div id="calendar"></div>
-                                </section>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="grid-4">
-                                <section class="item-meteorologia">
-                                    <h2>Meteorologia</h2>
-                                    <table class="tabela-cotacao">
-                                        <thead>
-                                            <tr>
-                                                <th>Estado</th>
-                                                <th>Mínima</th>
-                                                <th>Máxima</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Soja</td>
-                                                <td>886,75</td>
-                                                <td>9,50</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Milho</td>
-                                                <td>386,75</td>
-                                                <td>5,50</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Trigo</td>
-                                                <td>726,75</td>
-                                                <td>9,50</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <img src="http://imagens.climatempo.com.br/mapas/brasil_prev1_menor.gif" alt="Meteorolgia ACEBRA">
-                                </section>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="grid-4">
-                                <section class="item-cotacao">
-                                    <h2>Cotações</h2>
-                                    <div class="tab">
-                                        <button class="tablinks" onclick="openPrice(event, 'Commodities')" id="defaultOpen">Commodities</button>
-                                        <button class="tablinks" onclick="openPrice(event, 'Indices')">Índices</button>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
                                     </div>
-                                    <!-- Tab content -->
-                                    <div id="Commodities" class="tabcontent">
-                                        <table class="tabela-cotacao">
-                                            <thead>
-                                                <tr>
-                                                    <th>Contrato</th>
-                                                    <th>Preço</th>
-                                                    <th>VAR</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Soja</td>
-                                                    <td>886,75</td>
-                                                    <td>9,50</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Milho</td>
-                                                    <td>386,75</td>
-                                                    <td>5,50</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Trigo</td>
-                                                    <td>726,75</td>
-                                                    <td>9,50</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Café</td>
-                                                    <td>82,75</td>
-                                                    <td>9,50</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Açúcar</td>
-                                                    <td>66,75</td>
-                                                    <td>9,50</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
                                     </div>
-                                    <div id="Indices" class="tabcontent">
-                                        <h3>Paris</h3>
-                                        <p>Paris is the capital of France.</p>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
                                     </div>
-                                </section>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-6 new">
+                                <div class="row">
+                                    <div class="grid-2 date">
+                                        <b>02</b> <span>AGO</span>
+                                    </div>
+                                    <div class="grid-10">
+                                        <h4><a href="">NOVA TABELA ELEVA 140% O VALOR DO FRETE DO MILHO</a></h4>
+                                        <p>A segunda-feira, 24, foi marcada pela realização da 97ª reunião ordinária da
+                                            ...</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -382,6 +315,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="js/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
