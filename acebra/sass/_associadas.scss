@@ -1,0 +1,25 @@
+.logo-associada {
+    img {
+        padding: 15px;
+        display: block;
+        margin: 0 auto;
+        float:left;
+        width: 100px;
+        height: 90px;
+    }
+}
+.descricao-logo {
+    text-align: center;
+    @include tipo-1(18);
+    color: $primary;
+    font-weight: bold;
+    p{
+        text-transform: uppercase;
+    }
+}
+
+.logo-acebra-menor {
+    img {
+        margin:10px 0;
+    }
+}
